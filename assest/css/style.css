@@ -5,25 +5,27 @@
 }
 
 /* topheader start */
-#topheader{
+#topheader {
     background-color: #4989B0;
     font-size: 14px;
     padding: 4px;
     font-weight: 500;
 }
+
 /* topheader end */
 /* header start */
 header {
     box-shadow: 0px 2px 10px lightgrey;
+    padding: 0px 100px;
 }
 
 header .navbar-nav .nav-item {
-    padding: 0px 10px;
+    padding: 0px 20px;
     margin: 0;
 }
 
 header .navbar-nav .nav-link {
-margin: 0;
+    margin: 0;
     font-size: 14px;
     font-weight: 500;
     color: black;
@@ -59,16 +61,25 @@ header .navbar-nav .nav-item:hover .dropdown-menu {
     display: block;
 }
 
-header .navbar-nav #login {
+header .navbar-nav #telbtn {
     background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
     color: white;
     font-weight: 600;
     border: none;
     transition: all 0.5;
+    font-size: 14px;
+    padding: 5px 20px;
 }
 
-header .navbar-nav #login:hover {
+header .navbar-nav #telbtn:hover {
     box-shadow: 4px 4px 10px grey;
 }
 
 /* header end */
+
+
+@media screen and (max-width:1024px){
+    header{
+        padding: 0px 50px;
+    }
+}
