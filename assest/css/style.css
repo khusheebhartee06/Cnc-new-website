@@ -3,7 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#telbtn {
+    background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    transition: all 0.5;
+    font-size: 14px;
+    padding: 0.5rem 1.5rem;
+    margin:0px 15px;
+}
+#telbtn:hover {
+    box-shadow: 4px 4px 10px grey;
+}
 /* topheader start */
 #topheader {
     background-color: #4989B0;
@@ -71,26 +83,43 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
     color: #4989B0;
     letter-spacing: 0.7px;
 }
-header .navbar-nav #telbtn {
-    background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
-    color: white;
-    font-weight: 600;
-    border: none;
-    transition: all 0.5;
-    font-size: 14px;
-    padding: 0.5rem 1.5rem;
-    margin:0px 15px;
-}
+header .offcanvas-body #telbtn{
+    margin:10px 0px;
+    display: block;
 
-header .navbar-nav #telbtn:hover {
-    box-shadow: 4px 4px 10px grey;
 }
-
+header .offcanvas-body ul{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+header .offcanvas-body ul li{
+    padding: 10px 10px;
+    font-size: 14px ;
+    font-weight: 500;
+}
+header .offcanvas-body ul li a{
+    text-decoration: none;
+    color: black;
+}
+header .offcanvas-body ul li:hover{
+    background-color: rgb(216, 239, 247);
+    letter-spacing: 0.7px;
+    transition: all 0.5s;
+}
+header .offcanvas-body ul li:hover a{
+    color: #4a70da;
+}
 /* header end */
 
 
 @media screen and (max-width:1024px){
     header{
         padding: 0px 50px;
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        padding: 0px 20px;
     }
 }

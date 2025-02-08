@@ -13,7 +13,7 @@
 
 <body>
     <!-- top header start -->
-    <section id="topheader" class="text-white text-center" >
+    <section id="topheader" class="text-white text-center">
         Admissions Open for Job Oriented Courses.
     </section>
     <!-- top header end -->
@@ -78,11 +78,86 @@
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+
+                <a class="offcanvas-title" href="index.html">
+                    <img src="./assest/img/logo.png" width="110px" alt="logo" class="img-fluid">
+                </a>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-               
+                <ul>
+                    <li>
+                        <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#courseOffcanvas"
+                            aria-controls="courseOffcanvas" class="d-flex justify-content-between">
+                            <span>Courses</span>
+                            <span><i class="fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Placement</a>
+                    </li>
+                    <li>
+                        <a href="#">Free Webinar</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <a href="tel:+917400332999" class="btn" id="telbtn">+91-7400332999</a>
+
+                    <a href="#" class="btn" id="telbtn">Log In</a>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="courseOffcanvas" aria-labelledby="courseOffcanvas">
+            <div class="offcanvas-header">
+                <a class="offcanvas-title" href="index.html">
+                    <img src="./assest/img/logo.png" width="110px" alt="logo" class="img-fluid">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a href="#" class="fw-semibold text-decoration-none" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="fa-solid fa-angle-left"></i> Courses  
+                </a>
+                <ul>
+                    <li>
+                        <a href="#" >
+                            <img src="./assest/img/python.png" width="30px" alt=""> &nbsp; Python Full Stack
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">                            
+                            <img src="./assest/img/java.png" width="30px" alt=""> &nbsp; Java Full Stack
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/c.png" width="30px" alt=""> &nbsp; C & C++ Training
+                            Course
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/full.png" width="30px" alt=""> &nbsp; Full Stack
+                            Development
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/react.png" width="30px" alt=""> &nbsp; Best React Course
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/angular.png" width="30px" alt=""> &nbsp; Angular Training
+                            Course
+                        </a>
+                    </li>
+                    <a href="tel:+917400332999" class="btn" id="telbtn">+91-7400332999</a>
+
+                    <a href="#" class="btn" id="telbtn">Log In</a>
+                </ul>
             </div>
         </div>
     </header>
