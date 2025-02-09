@@ -19,16 +19,13 @@ new Swiper('.slider-wrapper', {
     },
     breakpoints: {
         640: {
-            slidesPerView: 1,
-            spaceBetween: 20,
+            slidesPerView: 1
           },
           768: {
-            slidesPerView: 2,
-            spaceBetween: 40,
+            slidesPerView: 2
           },
           1024: {
-            slidesPerView: 3,
-            spaceBetween: 50,
+            slidesPerView: 3
           },
     }
 });

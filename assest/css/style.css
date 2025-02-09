@@ -4,7 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.blue{
+    color: #2E3192;
+}
+.bg-red{
+    background-color: #FD5C63;
+}
+.bg-lightblue{
+    background-color: #6EC1E4;
+}
+.bg-green{
+    background-color: #61CE70;
+}
+.bg-pink{
+    background-color: #f39f9f;
+}
+.bg-yellow{
+    background-color: #FDC632;
+}
+.bg-bluelight{
+    background-color: #3CACBC;
+}
 #telbtn {
     background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
     color: white;
@@ -146,7 +166,7 @@ header .offcanvas-body ul li:hover a {
 .card-list .card-item {
     border: 2px solid rgb(202, 202, 202);
     padding: 20px;
-    box-shadow: 0px 2px 5px 0px rgb(155, 155, 155),0px 5px 5px 0px #8f9faa;
+    box-shadow: 0px 1px 5px 0px rgb(155, 155, 155),0px 4px 5px 0px #8f9faa;
 }
 
 .card-list .card-item .titleCard {
@@ -239,7 +259,28 @@ header .offcanvas-body ul li:hover a {
     color: #2E3192;
 }
 /* Our Courses end */
+/* Course Include start */
+#courseInclude{
+    background-color: #ECF0F2;
+}
+#courseInclude .col-md-9 .row .col .includeIcon{
+    transition: all .3s;
+    line-height: 2.2;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    display: inline-block;
+    height:70px;
+    width: 70px;
+    margin: 10px;
+}
+#courseInclude .col-md-9 .row .col:hover .includeIcon{
+    transform: scale(1.2);
+}
+/* Course Include end */
 
+
+/* screen max-width 1024 */
 @media screen and (max-width:1024px) {
     header {
         padding: 0px 30px;
@@ -249,9 +290,18 @@ header .offcanvas-body ul li:hover a {
         padding: 0px 10px;
     }
 }
-
+/* screen max-width 1024 */
+/* screen max-width 768 */
 @media screen and (max-width:768px) {
     header {
         padding: 0px 20px;
     }
 }
+/* screen max-width 768 */
+/* screen min-width 768 */
+@media screen and (min-width:768px) {
+    #courseInclude .col-md-3{
+        border-right: 4px solid #FDC632;
+    }
+}
+/* screen min-width 768 */
