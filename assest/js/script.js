@@ -3,7 +3,7 @@ new Swiper('.slider-wrapper', {
     gapCursor: true,
     spaceBetween: 20,
     autoplay: {
-        delay: 200000,
+        delay: 2000,
         disableOnInteraction: false
     },
     // If we need pagination
