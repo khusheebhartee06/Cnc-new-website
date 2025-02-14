@@ -1,30 +1,41 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.blue{
+a{
+    text-decoration: none !important;
+}
+.blue {
     color: #2E3192;
 }
-.bg-red{
+
+.bg-red {
     background-color: #FD5C63;
 }
-.bg-lightblue{
+
+.bg-lightblue {
     background-color: #6EC1E4;
 }
-.bg-green{
+
+.bg-green {
     background-color: #61CE70;
 }
-.bg-pink{
+
+.bg-pink {
     background-color: #f39f9f;
 }
-.bg-yellow{
+
+.bg-yellow {
     background-color: #FDC632;
 }
-.bg-bluelight{
+
+.bg-bluelight {
     background-color: #3CACBC;
 }
+
 #telbtn {
     background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
     color: white;
@@ -39,7 +50,10 @@
     box-shadow: 4px 4px 10px grey;
 }
 
-/* topheader start */
+/*--------------------------------------------------------------
+  #  topheader section start 
+  --------------------------------------------------------------*/
+
 #topheader {
     background-color: #4989B0;
     font-size: 14px;
@@ -47,8 +61,14 @@
     font-weight: 500;
 }
 
-/* topheader end */
-/* header start */
+/*--------------------------------------------------------------
+  #  topheader section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  header section start 
+  --------------------------------------------------------------*/
+
 header {
     box-shadow: 0px 2px 10px lightgrey;
     padding: 0px 100px;
@@ -108,9 +128,11 @@ header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
     color: #4989B0;
     letter-spacing: 0.7px;
 }
-header #telbtn{
+
+header #telbtn {
     margin: 0px 15px;
 }
+
 header .offcanvas-body #telbtn {
     margin: 10px 0px;
     display: block;
@@ -144,32 +166,44 @@ header .offcanvas-body ul li:hover a {
     color: #4a70da;
 }
 
-/* header end */
-/* Banner start */
+/*--------------------------------------------------------------
+  #  header section end 
+  --------------------------------------------------------------*/
 
-/* Banner end */
-/* Student Review start */
-.swiper {
+/*--------------------------------------------------------------
+  #  Banner section start 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Banner section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Student Review start 
+  --------------------------------------------------------------*/
+
+#studentReview {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 300px;
 }
 
-#swiper .slider-wrapper {
-    /* overflow: hidden; */
+#studentReview .slider-wrapper {
     max-width: 1400px;
-    min-height: 480px;
+    min-height: 450px;
     margin: 0px 70px;
+    overflow: hidden;
 }
 
-.card-list .card-item {
+#studentReview .card-list .card-item {
     border: 2px solid rgb(202, 202, 202);
     padding: 20px;
-    box-shadow: 0px 1px 5px 0px rgb(155, 155, 155),0px 4px 5px 0px #8f9faa;
+    box-shadow: 0px 1px 5px 0px rgb(155, 155, 155), 0px 4px 5px 0px #8f9faa;
+
 }
 
-.card-list .card-item .titleCard {
+#studentReview .card-list .card-item .titleCard {
     background-color: #22577A;
     border-radius: 20px;
     padding: 40px 32px 20px 32px;
@@ -178,27 +212,30 @@ header .offcanvas-body ul li:hover a {
 }
 
 
-.card-list .card-item .titleCard .studentImage {
+#studentReview .card-list .card-item .titleCard .studentImage {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     position: absolute;
-    top: -4rem;
+    top: -2.8rem;
     width: 100%;
 
 }
 
-.card-list .card-item .titleCard .studentImage .studentImageRounded {
+#studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+    width: 60px;
+}
+
+#studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
     border: 2px solid #eaeaea;
     border-radius: 50%;
     padding: 10px;
     background: #fff;
     width: 110px;
     height: 110px;
-
 }
 
-#swiper .slider-wrapper .swiper-pagination-bullet {
+#studentReview .slider-wrapper .swiper-pagination-bullet {
     background-color: rgb(165, 176, 223);
     height: 16px;
     width: 16px;
@@ -206,81 +243,423 @@ header .offcanvas-body ul li:hover a {
     transition: all 0.4s;
 }
 
-#swiper .slider-wrapper .swiper-pagination-bullet-active {
+#studentReview .slider-wrapper .swiper-pagination-bullet-active {
     background-color: #22577A;
     height: 18px;
     width: 18px;
 }
 
-#swiper .slider-wrapper .button-swiper {
-    color:#22577A;
+#studentReview .slider-wrapper .button-swiper {
+    color: #22577A;
     transition: all 0.5s;
     padding: 25px;
     border-radius: 50%;
     border: 2px solid #22577A;
-   
+
 }
-#swiper .slider-wrapper .button-swiper::after{
-     font-size: 15px;
-     font-weight: bolder;
+
+#studentReview .slider-wrapper .button-swiper::after {
+    font-size: 15px;
+    font-weight: bolder;
 }
-#swiper .slider-wrapper .button-swiper:hover {
+
+#studentReview .slider-wrapper .button-swiper:hover {
     background-color: #22577A;
     color: white;
 }
 
-/* Student Review end */
-/* Our Courses start */
-#ourCourses .card{
+/*--------------------------------------------------------------
+  #  Student Review end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Our Courses start
+  --------------------------------------------------------------*/
+
+#ourCourses .card {
     font-family: 'Inter';
 }
-#ourCourses #enrollbtn, #ourCourses #buybtn{
+
+#ourCourses #enrollbtn,
+#ourCourses #buybtn {
     padding: 9px 13%;
     font-weight: 500;
-    border:1px solid #2E3192;
+    border: 1px solid #2E3192;
     border-radius: 5px;
     transition: all 0.6s;
-    margin-right:10px;
+    margin-right: 10px;
 }
-#ourCourses #enrollbtn{
+
+#ourCourses #enrollbtn {
     background-color: white;
     color: #2E3192;
 }
-#ourCourses #buybtn{
+
+#ourCourses #buybtn {
     background-color: #2E3192;
     color: white;
 }
-#ourCourses #enrollbtn:hover{
+
+#ourCourses #enrollbtn:hover {
     background-color: #2E3192;
     color: white;
 }
-#ourCourses #buybtn:hover{
+
+#ourCourses #buybtn:hover {
     background-color: white;
     color: #2E3192;
 }
-/* Our Courses end */
-/* Course Include start */
-#courseInclude{
+
+/*--------------------------------------------------------------
+  #  Our Courses end
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Course Include start
+  --------------------------------------------------------------*/
+
+#courseInclude {
     background-color: #ECF0F2;
 }
-#courseInclude .col-md-9 .row .col .includeIcon{
+
+#courseInclude .col-md-9 .row .col .includeIcon {
     transition: all .3s;
     line-height: 2.2;
     color: white;
     border-radius: 50%;
     font-size: 32px;
     display: inline-block;
-    height:70px;
+    height: 70px;
     width: 70px;
     margin: 10px;
 }
-#courseInclude .col-md-9 .row .col:hover .includeIcon{
+
+#courseInclude .col-md-9 .row .col:hover .includeIcon {
     transform: scale(1.2);
 }
-/* Course Include end */
 
+/*--------------------------------------------------------------
+  #  Course Include end
+  --------------------------------------------------------------*/
+/* 
+/*--------------------------------------------------------------
+  #  Rating Section start 
+  --------------------------------------------------------------*/
 
-/* screen max-width 1024 */
+#ratingSection .rating-logo {
+    height: 40px;
+}
+
+/*--------------------------------------------------------------
+  #  Rating Section end 
+  --------------------------------------------------------------*/
+/* 
+/*--------------------------------------------------------------
+  # whyChoose section start 
+  --------------------------------------------------------------*/
+  #whyChoose{
+    background-color: #ECF1F6;
+  }
+#whyChoose .slider-wrapper {
+    max-width: 1400px;
+    min-height: 440px;
+    /* margin: 0px 70px; */
+    overflow: hidden;
+    padding: 10px;
+}
+
+#whyChoose .slider-wrapper .swiper-button-next::after,
+#whyChoose .slider-wrapper .swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet {
+    background-color: rgb(165, 176, 223);
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #22577A;
+    height: 18px;
+    width: 18px;
+}
+
+#whyChoose .chooseBox {
+    padding: 30px;
+    box-shadow: -1px 0 9px 0 rgba(191, 191, 191, 0.49);
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0px;
+}
+
+#whyChoose .chooseBox::after {
+    position: absolute;
+    content: "";
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #0093d8;
+
+}
+
+#whyChoose .chooseBox:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.31)
+}
+
+#whyChoose .chooseBox:hover::after {
+    width: 100%;
+}
+
+#whyChoose .chooseBox .chooseIcon {
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 73% 27% 38% 62% / 40% 43% 57% 60%;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    -webkit-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+#whyChoose .chooseBox:hover .chooseIcon {
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg)
+}
+
+#whyChoose .chooseBox .chooseIcon img {
+    width: 100%;
+    display: block;
+    height: 60px;
+}
+
+#whyChoose .chooseBox .chooseText p {
+    font-size: 16px;
+    line-height: 25px;
+    min-height: 100px;
+    color: #989898;
+    letter-spacing: .5px;
+}
+
+/*--------------------------------------------------------------
+  # whyChoose section end 
+  --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+  # Placed_Students section start 
+  --------------------------------------------------------------*/
+#placedStudent .col-12 .col .box {
+    overflow: hidden;
+    border: 4px solid #1AB69D;
+    text-align: center;
+    position: relative;
+}
+
+#placedStudent .col-12 .col .box img {
+    transition: all 0.6s;
+}
+
+#placedStudent .col-12 .col .box p {
+    color: white;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(0, 0, 0, 0.5));
+    transition: all 0.5s;
+}
+
+#placedStudent .col-12 .col .box:hover img {
+    transform: scale(1.2);
+}
+
+#placedStudent .col-12 .col .box:hover p {
+    height: 110%;
+    padding: 25% 0;
+}
+
+/*--------------------------------------------------------------
+    # Placed_Students section end 
+ --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    #admissionProcess section start 
+--------------------------------------------------------------*/
+#admissionProcess{
+
+}
+#admissionProcess .admissionProcessBox{
+    transition: all 0.6s;
+}
+#admissionProcess .admissionProcessBox:hover{
+    background-color: #313C96;
+    color: white;
+}
+#admissionProcess .admissionProcessBox .col-3 div{
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #313C96;
+    border-radius: 50%;
+    margin-top: auto;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 1;
+    margin-top: 15px;
+}
+/*--------------------------------------------------------------
+    #admissionProcess section end 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # linkWhatsapp section start 
+--------------------------------------------------------------*/
+#linkWhatsapp {
+    background-color: #29AF3E; 
+    transition: all 1s;   
+}
+
+#linkWhatsapp .linktext {
+    font-size: 36px;
+    line-height: 1.35em;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+    transition: all 0.6s;
+}
+#linkWhatsapp:hover{
+    background-color: white;
+}
+#linkWhatsapp:hover .linktext{
+    color: #29AF3E;
+}
+/*--------------------------------------------------------------
+    # linkWhatsapp section end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # upComingBatches section start 
+--------------------------------------------------------------*/
+#upcomingBatches {
+    background-color: #ECF1F6;
+}
+
+#upcomingBatches table .tabletop {
+    background-color: #5e2883 !important;
+    color: #fff !important;
+}
+
+/*--------------------------------------------------------------
+    # upComingBatches section end 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # footer section start
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # footer-top start
+--------------------------------------------------------------*/
+footer .footer-top {
+    background-color: #03032c;
+    color: white;
+    padding: 30px 40px 10px 40px;
+}
+
+footer .footer-top .col-md-3 ul {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+footer .footer-top .col-md-3 ul li {
+    list-style: none;
+    padding: 8px 0px;
+    font-weight: 500;
+}
+
+footer .footer-top .col-md-3 ul li a {
+    color: white;
+    position: relative;
+    display: block;
+}
+
+footer .footer-top .col-md-3 ul li span {
+    margin-left: 10px;
+}
+
+footer .footer-top .col-md-3 ul li a::before {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -4px;
+    transition: all 0.4s;
+    border-radius: 50px;
+}
+
+footer .footer-top .col-md-3 ul li:hover a::before {
+    width: 80%;
+}
+
+/*--------------------------------------------------------------
+    # footer-bottom section start
+    --------------------------------------------------------------*/
+
+footer .footer-bottom {
+    /* #03032c,#02021E */
+    background-color: #03032c;
+    padding: 30px 40px 10px 40px;
+    border-top: 1px solid #e9e5e5;
+    box-shadow: -3px 0px 10px 0px gainsboro;
+}
+
+footer .footer-bottom .social-icons {
+    display: flex;
+    justify-content: end;
+}
+
+footer .footer-bottom .social-icons li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+footer .footer-bottom .social-icons li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 2.2;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: all 0.4s;
+}
+
+footer .social-icons li a:hover {
+    color: #02021E;
+    background-color: white;
+    border: 1px solid #02021E;
+}
+
+/*--------------------------------------------------------------
+    # footer section start
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # screen max-width 1024px start 
+    --------------------------------------------------------------*/
+
 @media screen and (max-width:1024px) {
     header {
         padding: 0px 30px;
@@ -290,18 +669,97 @@ header .offcanvas-body ul li:hover a {
         padding: 0px 10px;
     }
 }
-/* screen max-width 1024 */
-/* screen max-width 768 */
+
+/*--------------------------------------------------------------
+    # screen max-width 1024px end 
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # screen max-width 992px start 
+    --------------------------------------------------------------*/
+
+@media screen and (max-width:992px) {
+    #linkWhatsapp .linktext {
+        font-size: 28px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 992px end 
+    --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen max-width 768px start 
+    --------------------------------------------------------------*/
+
 @media screen and (max-width:768px) {
     header {
         padding: 0px 20px;
     }
+
+    .rating-section .rating-logo {
+        height: 30px;
+    }
+
+    #linkWhatsapp .linkRow {
+        flex-direction: column;
+    }
+
+    #linkWhatsapp .linktext {
+        font-size: 25px;
+        padding-top: 0px;
+        
+    margin-left: 0px;
+    }
 }
-/* screen max-width 768 */
-/* screen min-width 768 */
+
+/*--------------------------------------------------------------
+    # screen max-width 768px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen min-width 768px start 
+--------------------------------------------------------------*/
 @media screen and (min-width:768px) {
-    #courseInclude .col-md-3{
+    #courseInclude .col-md-3 {
         border-right: 4px solid #FDC632;
     }
 }
-/* screen min-width 768 */
+
+
+/*--------------------------------------------------------------
+    # screen min-width 768px end 
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+    # screen max-width 576px end 
+--------------------------------------------------------------*/
+@media screen and (max-width:576px) {
+    #swiper .slider-wrapper {
+        margin: 0px 0px;
+    }
+
+   #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+        padding: 8px;
+        background: #fff;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+        width: 50px;
+    }
+    footer .footer-top {
+        padding: 30px 20px;
+    }
+
+    footer .footer-bottom {
+        padding: 20px 10px;
+    }
+}
+
+
+/*--------------------------------------------------------------
+    # screen max-width 576px end 
+--------------------------------------------------------------*/
