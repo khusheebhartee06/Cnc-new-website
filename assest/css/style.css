@@ -188,65 +188,18 @@ header .offcanvas-body ul li:hover a {
     display: inline-flex;
     background-color: #192124;
     border-radius: 0px 20px;
-    padding: 20px 20px 0px;
+    padding: 20px
 }
 
 #banner .wrapper .static-txt {
     font-size: 48px;
-    font-weight: 500;
+    font-weight: bold;
     font-family: "Poppins", serif;
     color: white;
 }
 
-#banner .wrapper .dynamic-txts {
-    margin-left: 0px;
-    height: 80px;
-    line-height: 80px;
-    overflow: hidden;
-    padding-left: 8px;
-}
-
-#banner .wrapper .dynamic-txts li {
+#banner .wrapper .static-txt span {
     color: #09d1ec;
-    font-size: 46px;
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    list-style: none;
-    position: relative;
-    top: 0;
-    animation: slide 14s steps(4) infinite;
-}
-
-@keyframes slide {
-    100% {
-        top: -320px;
-    }
-}
-
-#banner .wrapper .dynamic-txts li span {
-    position: relative;
-}
-
-#banner .wrapper .dynamic-txts li span::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #09d1ec;
-    background-color: #192124;
-    animation: typing 3.5s steps(15) infinite;
-}
-
-@keyframes typing {
-    50% {
-        left: 100%;
-        margin: 0 -35px 0 -35px;
-    }
-    100% {
-        left: 0%;
-        margin: 0;
-    }
 }
 
 /*--------------------------------------------------------------
@@ -637,9 +590,10 @@ header .offcanvas-body ul li:hover a {
     background-color: #ECF1F6;
 }
 
-#upcomingBatches table{
+#upcomingBatches table {
     min-width: 450px;
 }
+
 #upcomingBatches table .tabletop {
     background-color: #5e2883 !important;
     color: #fff !important;
@@ -806,27 +760,11 @@ footer .social-icons li a:hover {
     # screen max-width 992px start 
     --------------------------------------------------------------*/
 
-@media screen and (max-width:992px) {  #banner .wrapper .static-txt {
+@media screen and (max-width:992px) {
+    #banner .wrapper .static-txt {
         font-size: 38px;
     }
-    #banner .wrapper .dynamic-txts {
-        height: 70px;
-        line-height: 70px;
-        overflow: hidden;
-    }
-    
-    #banner .wrapper .dynamic-txts li {
-        font-size: 36px;
-    }
-    @keyframes slide {
-        100% {
-            top: -280px;
-        }
-    }
-    #linkWhatsapp .linktext {
-        font-size: 28px;
-    }
-  
+
 }
 
 /*--------------------------------------------------------------
@@ -841,27 +779,16 @@ footer .social-icons li a:hover {
     header {
         padding: 0px 20px;
     }
-#banner{
+
+    #banner {
         height: 450px;
-        padding:300px 50px 0px 50px;
+        padding: 300px 50px 0px 50px;
     }
+
     #banner .wrapper .static-txt {
         font-size: 28px;
     }
-    #banner .wrapper .dynamic-txts {
-        height: 50px;
-        line-height: 50px;
-        overflow: hidden;
-    }
-    
-    #banner .wrapper .dynamic-txts li {
-        font-size: 28px;
-    }
-    @keyframes slide {
-        100% {
-            top: -210px;
-        }
-    }
+
     .rating-section .rating-logo {
         height: 30px;
     }
@@ -876,10 +803,12 @@ footer .social-icons li a:hover {
 
         margin-left: 0px;
     }
+
     #upcomingBatches table {
         font-size: 15px;
     }
-    #upcomingBatches table .btn{
+
+    #upcomingBatches table .btn {
         font-size: 15px;
     }
 }
@@ -907,29 +836,15 @@ footer .social-icons li a:hover {
     # screen max-width 576px end 
 --------------------------------------------------------------*/
 @media screen and (max-width:576px) {
-    #banner{
+    #banner {
         height: 400px;
-        padding:275px 50px 0px 50px;
+        padding: 275px 50px 0px 50px;
     }
+
     #banner .wrapper .static-txt {
         font-size: 25px;
     }
-    #banner .wrapper .dynamic-txts {
-        height: 40px;
-        line-height: 40px;
-        overflow: hidden;
-    }
-    
-    #banner .wrapper .dynamic-txts li{
-        font-size: 25px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    @keyframes slide {
-        100% {
-            top: -160px;
-        }
-    }
+
     #swiper .slider-wrapper {
         margin: 0px 0px;
     }
@@ -945,6 +860,7 @@ footer .social-icons li a:hover {
     #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
         width: 50px;
     }
+
     #admissionProcess .admissionProcessBox .col-3 div {
         padding: 15px;
         font-size: 25px;
@@ -952,17 +868,20 @@ footer .social-icons li a:hover {
         line-height: 1;
         margin-top: 25px;
     }
-    #admissionProcess .admissionProcessBox .col-9 h5{
+
+    #admissionProcess .admissionProcessBox .col-9 h5 {
         font-size: 18px;
     }
-    #admissionProcess .admissionProcessBox .col-9 p{
+
+    #admissionProcess .admissionProcessBox .col-9 p {
         font-size: 15px;
     }
 
     #upcomingBatches table {
         font-size: 14px;
     }
-    #upcomingBatches table .btn{
+
+    #upcomingBatches table .btn {
         font-size: 14px;
     }
 
@@ -973,7 +892,7 @@ footer .social-icons li a:hover {
     footer .footer-bottom {
         padding: 20px 10px;
     }
-    
+
 }
 
 
@@ -985,30 +904,17 @@ footer .social-icons li a:hover {
     # screen max-width 520px start 
 --------------------------------------------------------------*/
 @media screen and (max-width:520px) {
-    #banner{
+    #banner {
         height: 400px;
-        padding:275px 25px 0px 25px;
+        padding: 275px 25px 0px 25px;
     }
+
     #banner .wrapper .static-txt {
         font-size: 22px;
     }
-    #banner .wrapper .dynamic-txts {
-        height: 35px;
-        line-height: 35px;
-        overflow: hidden;
-    }
-    
-    #banner .wrapper .dynamic-txts li{
-        font-size: 22px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    @keyframes slide {
-        100% {
-            top: -140px;
-        }
-    }
+
 }
+
 /*--------------------------------------------------------------
     # screen max-width 520px end 
 --------------------------------------------------------------*/
@@ -1017,36 +923,24 @@ footer .social-icons li a:hover {
     # screen max-width 421px start 
 --------------------------------------------------------------*/
 @media screen and (max-width:421px) {
-    #banner{
+    #banner {
         height: 400px;
-        padding:275px 20px 0px 20px;
+        padding: 275px 20px 0px 20px;
     }
+
     #banner .wrapper .static-txt {
         font-size: 20px;
     }
-    #banner .wrapper .dynamic-txts {
-        height: 30px;
-        line-height: 30px;
-        overflow: hidden;
-    }
-    
-    #banner .wrapper .dynamic-txts li{
-        font-size: 20px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    @keyframes slide {
-        100% {
-            top: -120px;
-        }
-    }
+
     #upcomingBatches table {
         font-size: 12px;
     }
-    #upcomingBatches table .btn{
+
+    #upcomingBatches table .btn {
         font-size: 12px;
     }
 }
+
 /*--------------------------------------------------------------
     # screen max-width 421px end 
 --------------------------------------------------------------*/
