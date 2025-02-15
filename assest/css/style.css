@@ -637,6 +637,9 @@ header .offcanvas-body ul li:hover a {
     background-color: #ECF1F6;
 }
 
+#upcomingBatches table{
+    min-width: 450px;
+}
 #upcomingBatches table .tabletop {
     background-color: #5e2883 !important;
     color: #fff !important;
@@ -873,7 +876,12 @@ footer .social-icons li a:hover {
 
         margin-left: 0px;
     }
-    
+    #upcomingBatches table {
+        font-size: 15px;
+    }
+    #upcomingBatches table .btn{
+        font-size: 15px;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -950,6 +958,14 @@ footer .social-icons li a:hover {
     #admissionProcess .admissionProcessBox .col-9 p{
         font-size: 15px;
     }
+
+    #upcomingBatches table {
+        font-size: 14px;
+    }
+    #upcomingBatches table .btn{
+        font-size: 14px;
+    }
+
     footer .footer-top {
         padding: 30px 20px;
     }
@@ -1023,6 +1039,12 @@ footer .social-icons li a:hover {
         100% {
             top: -120px;
         }
+    }
+    #upcomingBatches table {
+        font-size: 12px;
+    }
+    #upcomingBatches table .btn{
+        font-size: 12px;
     }
 }
 /*--------------------------------------------------------------
