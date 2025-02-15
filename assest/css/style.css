@@ -983,3 +983,35 @@ footer .social-icons li a:hover {
 /*--------------------------------------------------------------
     # screen max-width 520px end 
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen max-width 421px start 
+--------------------------------------------------------------*/
+@media screen and (max-width:421px) {
+    #banner{
+        height: 400px;
+        padding:275px 20px 0px 20px;
+    }
+    #banner .wrapper .static-txt {
+        font-size: 20px;
+    }
+    #banner .wrapper .dynamic-txts {
+        height: 30px;
+        line-height: 30px;
+        overflow: hidden;
+    }
+    
+    #banner .wrapper .dynamic-txts li{
+        font-size: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    @keyframes slide {
+        100% {
+            top: -120px;
+        }
+    }
+}
+/*--------------------------------------------------------------
+    # screen max-width 421px end 
+--------------------------------------------------------------*/
