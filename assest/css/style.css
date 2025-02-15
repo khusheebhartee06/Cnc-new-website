@@ -203,6 +203,7 @@ header .offcanvas-body ul li:hover a {
     height: 80px;
     line-height: 80px;
     overflow: hidden;
+    padding-left: 8px;
 }
 
 #banner .wrapper .dynamic-txts li {
