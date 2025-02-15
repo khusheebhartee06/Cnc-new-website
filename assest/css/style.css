@@ -176,12 +176,78 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   #  Banner section start 
   --------------------------------------------------------------*/
-#banner{
-    background: url(../img/banner.jpeg) scroll no-repeat;
+#banner {
+    background: linear-gradient(to right, #021A64, rgba(255, 255, 255, 0.1)), url(../img/banner.jpeg) scroll no-repeat;
     background-size: cover;
-    height:500px;
+    height: 500px;
     background-position: center;
+    padding: 350px 100px 100px 100px;
 }
+
+#banner .wrapper {
+    display: inline-flex;
+    background-color: #192124;
+    border-radius: 0px 20px;
+    padding: 20px 20px 0px;
+}
+
+#banner .wrapper .static-txt {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+#banner .wrapper .dynamic-txts {
+    margin-left: 0px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+#banner .wrapper .dynamic-txts li {
+    color: #09d1ec;
+    font-size: 46px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+    top: 0;
+    animation: slide 14s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -320px;
+    }
+}
+
+#banner .wrapper .dynamic-txts li span {
+    position: relative;
+}
+
+#banner .wrapper .dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #09d1ec;
+    background-color: #192124;
+    animation: typing 3.5s steps(15) infinite;
+}
+
+@keyframes typing {
+    50% {
+        left: 100%;
+        margin: 0 -35px 0 -35px;
+    }
+    100% {
+        left: 0%;
+        margin: 0;
+    }
+}
+
 /*--------------------------------------------------------------
   #  Banner section end 
   --------------------------------------------------------------*/
@@ -603,20 +669,23 @@ header .offcanvas-body ul li:hover a {
     transition: all 0.5s;
 }
 
-#faqs #accordionExample .accordion-item .accordion-button::after{
+#faqs #accordionExample .accordion-item .accordion-button::after {
     background-color: white;
     border-radius: 50%;
-    width:28px;
+    width: 28px;
     height: 28px;
     background-position: center;
 }
-#faqs #accordionExample .accordion-item .accordion-button:not(.collapsed){
+
+#faqs #accordionExample .accordion-item .accordion-button:not(.collapsed) {
     background-color: #313C96;
     color: white;
 }
-#faqs #accordionExample .accordion-item .accordion-body{
+
+#faqs #accordionExample .accordion-item .accordion-body {
     font-weight: normal;
 }
+
 /*--------------------------------------------------------------
     # faqs section end
 --------------------------------------------------------------*/
