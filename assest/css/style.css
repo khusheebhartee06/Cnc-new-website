@@ -806,6 +806,23 @@ footer .social-icons li a:hover {
     #linkWhatsapp .linktext {
         font-size: 28px;
     }
+    #banner .wrapper .static-txt {
+        font-size: 38px;
+    }
+    #banner .wrapper .dynamic-txts {
+        height: 70px;
+        line-height: 70px;
+        overflow: hidden;
+    }
+    
+    #banner .wrapper .dynamic-txts li {
+        font-size: 36px;
+    }
+    @keyframes slide {
+        100% {
+            top: -280px;
+        }
+    }
 }
 
 /*--------------------------------------------------------------
@@ -834,6 +851,27 @@ footer .social-icons li a:hover {
         padding-top: 0px;
 
         margin-left: 0px;
+    }
+    #banner{
+        height: 450px;
+        padding:300px 50px 0px 50px;
+    }
+    #banner .wrapper .static-txt {
+        font-size: 28px;
+    }
+    #banner .wrapper .dynamic-txts {
+        height: 50px;
+        line-height: 50px;
+        overflow: hidden;
+    }
+    
+    #banner .wrapper .dynamic-txts li {
+        font-size: 28px;
+    }
+    @keyframes slide {
+        100% {
+            top: -210px;
+        }
     }
 }
 
@@ -883,9 +921,65 @@ footer .social-icons li a:hover {
     footer .footer-bottom {
         padding: 20px 10px;
     }
+    
+    #banner{
+        height: 400px;
+        padding:275px 50px 0px 50px;
+    }
+    #banner .wrapper .static-txt {
+        font-size: 25px;
+    }
+    #banner .wrapper .dynamic-txts {
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+    }
+    
+    #banner .wrapper .dynamic-txts li{
+        font-size: 25px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    @keyframes slide {
+        100% {
+            top: -160px;
+        }
+    }
 }
 
 
 /*--------------------------------------------------------------
     # screen max-width 576px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen max-width 520px start 
+--------------------------------------------------------------*/
+@media screen and (max-width:520px) {
+    #banner{
+        height: 400px;
+        padding:275px 25px 0px 25px;
+    }
+    #banner .wrapper .static-txt {
+        font-size: 22px;
+    }
+    #banner .wrapper .dynamic-txts {
+        height: 35px;
+        line-height: 35px;
+        overflow: hidden;
+    }
+    
+    #banner .wrapper .dynamic-txts li{
+        font-size: 22px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    @keyframes slide {
+        100% {
+            top: -140px;
+        }
+    }
+}
+/*--------------------------------------------------------------
+    # screen max-width 520px end 
 --------------------------------------------------------------*/
