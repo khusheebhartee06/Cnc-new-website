@@ -575,7 +575,7 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
     #admissionProcess section start 
 --------------------------------------------------------------*/
-#admissionProcess {}
+
 
 #admissionProcess .admissionProcessBox {
     transition: all 0.6s;
@@ -803,11 +803,7 @@ footer .social-icons li a:hover {
     # screen max-width 992px start 
     --------------------------------------------------------------*/
 
-@media screen and (max-width:992px) {
-    #linkWhatsapp .linktext {
-        font-size: 28px;
-    }
-    #banner .wrapper .static-txt {
+@media screen and (max-width:992px) {  #banner .wrapper .static-txt {
         font-size: 38px;
     }
     #banner .wrapper .dynamic-txts {
@@ -824,6 +820,10 @@ footer .social-icons li a:hover {
             top: -280px;
         }
     }
+    #linkWhatsapp .linktext {
+        font-size: 28px;
+    }
+  
 }
 
 /*--------------------------------------------------------------
@@ -838,22 +838,7 @@ footer .social-icons li a:hover {
     header {
         padding: 0px 20px;
     }
-
-    .rating-section .rating-logo {
-        height: 30px;
-    }
-
-    #linkWhatsapp .linkRow {
-        flex-direction: column;
-    }
-
-    #linkWhatsapp .linktext {
-        font-size: 25px;
-        padding-top: 0px;
-
-        margin-left: 0px;
-    }
-    #banner{
+#banner{
         height: 450px;
         padding:300px 50px 0px 50px;
     }
@@ -874,6 +859,21 @@ footer .social-icons li a:hover {
             top: -210px;
         }
     }
+    .rating-section .rating-logo {
+        height: 30px;
+    }
+
+    #linkWhatsapp .linkRow {
+        flex-direction: column;
+    }
+
+    #linkWhatsapp .linktext {
+        font-size: 25px;
+        padding-top: 0px;
+
+        margin-left: 0px;
+    }
+    
 }
 
 /*--------------------------------------------------------------
@@ -899,30 +899,6 @@ footer .social-icons li a:hover {
     # screen max-width 576px end 
 --------------------------------------------------------------*/
 @media screen and (max-width:576px) {
-    #swiper .slider-wrapper {
-        margin: 0px 0px;
-    }
-
-    #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
-        padding: 8px;
-        background: #fff;
-        width: 90px;
-        height: 90px;
-
-    }
-
-    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
-        width: 50px;
-    }
-
-    footer .footer-top {
-        padding: 30px 20px;
-    }
-
-    footer .footer-bottom {
-        padding: 20px 10px;
-    }
-    
     #banner{
         height: 400px;
         padding:275px 50px 0px 50px;
@@ -946,6 +922,42 @@ footer .social-icons li a:hover {
             top: -160px;
         }
     }
+    #swiper .slider-wrapper {
+        margin: 0px 0px;
+    }
+
+    #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+        padding: 8px;
+        background: #fff;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+        width: 50px;
+    }
+    #admissionProcess .admissionProcessBox .col-3 div {
+        padding: 15px;
+        font-size: 25px;
+        display: inline-block;
+        line-height: 1;
+        margin-top: 25px;
+    }
+    #admissionProcess .admissionProcessBox .col-9 h5{
+        font-size: 18px;
+    }
+    #admissionProcess .admissionProcessBox .col-9 p{
+        font-size: 15px;
+    }
+    footer .footer-top {
+        padding: 30px 20px;
+    }
+
+    footer .footer-bottom {
+        padding: 20px 10px;
+    }
+    
 }
 
 
