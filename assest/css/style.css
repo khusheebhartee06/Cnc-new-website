@@ -1,13 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none !important;
 }
+
 .blue {
     color: #2E3192;
 }
@@ -173,7 +176,12 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   #  Banner section start 
   --------------------------------------------------------------*/
-
+#banner{
+    background: url(../img/banner.jpeg) scroll no-repeat;
+    background-size: cover;
+    height:500px;
+    background-position: center;
+}
 /*--------------------------------------------------------------
   #  Banner section end 
   --------------------------------------------------------------*/
@@ -357,9 +365,10 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   # whyChoose section start 
   --------------------------------------------------------------*/
-  #whyChoose{
+#whyChoose {
     background-color: #ECF1F6;
-  }
+}
+
 #whyChoose .slider-wrapper {
     max-width: 1400px;
     min-height: 440px;
@@ -499,17 +508,18 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
     #admissionProcess section start 
 --------------------------------------------------------------*/
-#admissionProcess{
+#admissionProcess {}
 
-}
-#admissionProcess .admissionProcessBox{
+#admissionProcess .admissionProcessBox {
     transition: all 0.6s;
 }
-#admissionProcess .admissionProcessBox:hover{
+
+#admissionProcess .admissionProcessBox:hover {
     background-color: #313C96;
     color: white;
 }
-#admissionProcess .admissionProcessBox .col-3 div{
+
+#admissionProcess .admissionProcessBox .col-3 div {
     padding: 20px;
     background-color: #e6e6e6;
     color: #313C96;
@@ -520,6 +530,7 @@ header .offcanvas-body ul li:hover a {
     line-height: 1;
     margin-top: 15px;
 }
+
 /*--------------------------------------------------------------
     #admissionProcess section end 
 --------------------------------------------------------------*/
@@ -527,8 +538,8 @@ header .offcanvas-body ul li:hover a {
     # linkWhatsapp section start 
 --------------------------------------------------------------*/
 #linkWhatsapp {
-    background-color: #29AF3E; 
-    transition: all 1s;   
+    background-color: #29AF3E;
+    transition: all 1s;
 }
 
 #linkWhatsapp .linktext {
@@ -539,12 +550,15 @@ header .offcanvas-body ul li:hover a {
     color: white;
     transition: all 0.6s;
 }
-#linkWhatsapp:hover{
+
+#linkWhatsapp:hover {
     background-color: white;
 }
-#linkWhatsapp:hover .linktext{
+
+#linkWhatsapp:hover .linktext {
     color: #29AF3E;
 }
+
 /*--------------------------------------------------------------
     # linkWhatsapp section end 
 --------------------------------------------------------------*/
@@ -563,6 +577,48 @@ header .offcanvas-body ul li:hover a {
 
 /*--------------------------------------------------------------
     # upComingBatches section end 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # faqs section start
+--------------------------------------------------------------*/
+#faqs {
+    text-align: center;
+    padding: 48px 0px;
+}
+
+#faqs #accordionExample .accordion-item {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#faqs #accordionExample .accordion-item .accordion-button {
+    font-weight: 500;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+#faqs #accordionExample .accordion-item .accordion-button::after{
+    background-color: white;
+    border-radius: 50%;
+    width:28px;
+    height: 28px;
+    background-position: center;
+}
+#faqs #accordionExample .accordion-item .accordion-button:not(.collapsed){
+    background-color: #313C96;
+    color: white;
+}
+#faqs #accordionExample .accordion-item .accordion-body{
+    font-weight: normal;
+}
+/*--------------------------------------------------------------
+    # faqs section end
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
     # footer section start
@@ -707,8 +763,8 @@ footer .social-icons li a:hover {
     #linkWhatsapp .linktext {
         font-size: 25px;
         padding-top: 0px;
-        
-    margin-left: 0px;
+
+        margin-left: 0px;
     }
 }
 
@@ -739,7 +795,7 @@ footer .social-icons li a:hover {
         margin: 0px 0px;
     }
 
-   #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+    #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
         padding: 8px;
         background: #fff;
         width: 90px;
@@ -750,6 +806,7 @@ footer .social-icons li a:hover {
     #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
         width: 50px;
     }
+
     footer .footer-top {
         padding: 30px 20px;
     }
