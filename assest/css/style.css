@@ -382,7 +382,7 @@ padding: 80px 0px 0px 50px;
 }
 #whoCanJoin h2{
     line-height: 60px;
-    font-size: 40px;
+    font-size: 38px;
 }
 #whoCanJoin #register{
     background-color: #eea107;
@@ -396,6 +396,7 @@ padding: 80px 0px 0px 50px;
 }
 #whoCanJoin .img-fluid{
     height: 100%;
+    width: 100%;
 }
 /*--------------------------------------------------------------
   #  whoCanJoin Section end 
@@ -791,6 +792,21 @@ footer .social-icons li a:hover {
     # footer section start
     --------------------------------------------------------------*/
 /*--------------------------------------------------------------
+    # screen max-width 1200px start 
+    --------------------------------------------------------------*/
+
+@media screen and (max-width:1200px) {
+   
+        #whoCanJoin h2{
+            line-height:50px;
+            font-size: 32px;
+        }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 1024px end 
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
     # screen max-width 1024px start 
     --------------------------------------------------------------*/
 
@@ -802,6 +818,17 @@ footer .social-icons li a:hover {
     header .navbar-nav .nav-item {
         padding: 0px 10px;
     }
+    #whoCanJoin{
+        padding: 70px 0px 0px 50px;
+        }
+        #whoCanJoin h2{
+            line-height: 45px;
+            font-size: 28px;
+        }
+        #whoCanJoin #register{
+            padding:7px 60px ;
+            font-size: 25px;
+        }
 }
 
 /*--------------------------------------------------------------
@@ -843,7 +870,20 @@ footer .social-icons li a:hover {
     .rating-section .rating-logo {
         height: 30px;
     }
-
+    #whoCanJoin{
+        padding: 60px 0px 0px 40px;
+        }
+        #whoCanJoin h1{
+            font-size: 32px;
+        }
+        #whoCanJoin h2{
+            line-height: 40px;
+            font-size: 20px;
+        }
+        #whoCanJoin #register{
+            padding:5px 50px ;
+            font-size: 20px;
+        }
     #linkWhatsapp .linkRow {
         flex-direction: column;
     }
@@ -911,7 +951,20 @@ footer .social-icons li a:hover {
     #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
         width: 50px;
     }
-    
+    #whoCanJoin{
+        padding: 40px 0px 0px 20px;
+        }
+        #whoCanJoin h1{
+            font-size: 25px;
+        }
+        #whoCanJoin h2{
+            line-height: 30px;
+            font-size: 20px;
+        }
+        #whoCanJoin #register{
+            padding:5px 50px ;
+            font-size: 20px;
+        }
     #admissionProcess .admissionProcessBox .col-3 div {
         padding: 15px;
         font-size: 25px;
@@ -993,7 +1046,20 @@ footer .social-icons li a:hover {
     #banner .wrapper .static-txt {
         font-size: 20px;
     }
-
+    #whoCanJoin{
+        padding: 40px 0px 0px 20px;
+        }
+        #whoCanJoin h1{
+            font-size: 21px;
+        }
+        #whoCanJoin h2{
+            line-height: 25px;
+            font-size: 18px;
+        }
+        #whoCanJoin #register{
+            padding:5px 50px ;
+            font-size: 18px;
+        }
     #whyChoose #chooseMobileBox h5{
         font-size: 16px;
     }
