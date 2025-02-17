@@ -186,7 +186,7 @@ header .offcanvas-body ul li:hover a {
 
 #banner .wrapper {
     display: inline-flex;
-    background-color: #192124;
+    background-color: rgba(25, 33, 36,0.8);
     border-radius: 0px 20px;
     padding: 20px
 }
@@ -391,7 +391,7 @@ header .offcanvas-body ul li:hover a {
 
 #whyChoose .slider-wrapper {
     max-width: 1400px;
-    min-height: 440px;
+    min-height: 500px;
     /* margin: 0px 70px; */
     overflow: hidden;
     padding: 10px;
@@ -418,13 +418,14 @@ header .offcanvas-body ul li:hover a {
 }
 
 #whyChoose .chooseBox {
-    padding: 30px;
+    padding: 30px 20px;
     box-shadow: -1px 0 9px 0 rgba(191, 191, 191, 0.49);
     border-radius: 4px;
     background-color: white;
     position: relative;
     z-index: 1;
     margin: 10px 0px;
+    min-height: 420px;
 }
 
 #whyChoose .chooseBox::after {
@@ -480,7 +481,7 @@ header .offcanvas-body ul li:hover a {
     font-size: 16px;
     line-height: 25px;
     min-height: 100px;
-    color: #989898;
+    color: #888686;
     letter-spacing: .5px;
 }
 
