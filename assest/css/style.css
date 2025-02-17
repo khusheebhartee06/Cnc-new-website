@@ -386,7 +386,7 @@ header .offcanvas-body ul li:hover a {
   # whyChoose section start 
   --------------------------------------------------------------*/
 #whyChoose {
-    background-color: #ECF1F6;
+    background-color: #e0eaf3;
 }
 
 #whyChoose .slider-wrapper {
@@ -484,7 +484,26 @@ header .offcanvas-body ul li:hover a {
     color: #888686;
     letter-spacing: .5px;
 }
-
+#whyChoose #chooseMobileBox{
+    background-color: white;
+    transition: all 0.6s;
+    box-shadow: 0px 3px 5px rgb(177, 177, 177);
+    border-radius: 20px;
+}
+#whyChoose #chooseMobileBox:hover{
+    background-color: #313C96;
+    color: white;
+}
+#whyChoose #chooseMobileBox .col-3 div{
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #313C96;
+    border-radius: 50%;
+    margin-top: auto;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 1;
+}
 /*--------------------------------------------------------------
   # whyChoose section end 
   --------------------------------------------------------------*/
@@ -861,7 +880,7 @@ footer .social-icons li a:hover {
     #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
         width: 50px;
     }
-
+    
     #admissionProcess .admissionProcessBox .col-3 div {
         padding: 15px;
         font-size: 25px;
