@@ -369,7 +369,38 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   #  Course Include end
   --------------------------------------------------------------*/
-/* 
+
+/*--------------------------------------------------------------
+  #  whoCanJoin Section start 
+  --------------------------------------------------------------*/
+
+#whoCanJoin{
+background:url(../img/Who-can-join-bg.jpg) scroll ;
+background-size: cover;
+background-position:center;
+padding: 80px 0px 0px 50px;
+}
+#whoCanJoin h2{
+    line-height: 60px;
+    font-size: 40px;
+}
+#whoCanJoin #register{
+    background-color: #eea107;
+    color: white;
+    padding:7px 70px ;
+    border-radius: 30px;
+    font-size: 28px;
+    margin: 30px 0px 60px 0px;
+    font-weight: 500;
+    display: block;
+}
+#whoCanJoin .img-fluid{
+    height: 100%;
+}
+/*--------------------------------------------------------------
+  #  whoCanJoin Section end 
+  --------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
   #  Rating Section start 
   --------------------------------------------------------------*/
