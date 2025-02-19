@@ -251,8 +251,12 @@ header .offcanvas-body ul li:hover a {
 }
 
 #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
-    width: 60px;
+    font-size: 60px;
+    color: #fcc40e;
 }
+/* #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+    width: 60px;
+} */
 
 #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
     border: 2px solid #eaeaea;
@@ -458,11 +462,12 @@ header .offcanvas-body ul li:hover a {
     border: 1px solid #0f0f0f1a;
     border-radius: 4px;
     width: 250px;
-    height: 250px;
+    height: 220px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding-left: 3rem;
+    align-items: center;
+    /* padding-left: 3rem; */
+    /* text-align: center; */
     flex-direction: column;
     box-shadow: 0px 2px 6px gray;
     transition: all 0.7s;
@@ -473,8 +478,8 @@ header .offcanvas-body ul li:hover a {
     text-align: center;
     height: 70px;
     width: 70px;
-    line-height: 2.7;
-    font-size: 25px;
+    line-height: 2.5;
+    font-size: 30px;
     border-radius: 50%;
     color: #6895b1;
 }
@@ -584,9 +589,9 @@ header .offcanvas-body ul li:hover a {
 }
 
 #whyChoose .chooseBox .chooseIcon img {
-    width: 100%;
+    width: 80px;
     display: block;
-    height: 60px;
+    height: 80px;
 }
 
 #whyChoose .chooseBox .chooseText p {
@@ -1053,10 +1058,7 @@ footer .social-icons li a:hover {
 
     }
 
-    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
-        width: 50px;
-    }
-
+    
     #whoCanJoin {
         padding: 40px 0px 0px 20px;
     }
@@ -1077,7 +1079,6 @@ footer .social-icons li a:hover {
     #insituteStatus .insituteStatusBox{
         width: 100%;
         height: 200px;
-        padding-left: 2rem;
     }
     #admissionProcess .admissionProcessBox .col-3 div {
         padding: 15px;
@@ -1170,6 +1171,9 @@ footer .social-icons li a:hover {
 
     #banner .wrapper .static-txt {
         font-size: 20px;
+    }
+    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+        font-size: 50px;
     }
 
     #whoCanJoin {
