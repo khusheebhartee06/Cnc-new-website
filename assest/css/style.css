@@ -481,14 +481,14 @@ header .offcanvas-body ul li:hover a {
     line-height: 2.5;
     font-size: 30px;
     border-radius: 50%;
-    color: #6895b1;
+    color: #313C97;
 }
 #insituteStatus .insituteStatusBox p{
     font-size: 18px;
 }
 #insituteStatus .insituteStatusBox:hover {
     transform: translateY(-20px);
-    background-color: #6895B1;
+    background-color: #313C97;
     color: white;
 }
 
@@ -542,7 +542,8 @@ header .offcanvas-body ul li:hover a {
     position: relative;
     z-index: 1;
     margin: 10px 0px;
-    min-height: 420px;
+    min-height: 430px;
+    transition: all 0.6s;
 }
 
 #whyChoose .chooseBox::after {
@@ -560,7 +561,8 @@ header .offcanvas-body ul li:hover a {
 }
 
 #whyChoose .chooseBox:hover {
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.31)
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.31);
+    transform: scale(1.05);
 }
 
 #whyChoose .chooseBox:hover::after {
