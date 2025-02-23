@@ -16,27 +16,27 @@ a {
 }
 
 .bg-red {
-    background-color: #FD5C63;
+    background-color: #f1030f;
 }
 
 .bg-lightblue {
-    background-color: #6EC1E4;
+    background-color: #00a5ec;
 }
 
 .bg-green {
-    background-color: #61CE70;
+    background-color: #188d27;
 }
 
 .bg-pink {
-    background-color: #f39f9f;
+    background-color: #8f3131;
 }
 
 .bg-yellow {
-    background-color: #FDC632;
+    background-color: #f7b708;
 }
 
 .bg-bluelight {
-    background-color: #3CACBC;
+    background-color: #07ceec;
 }
 
 #telbtn {
@@ -59,9 +59,10 @@ a {
 
 #topheader {
     background-color: #4989B0;
-    font-size: 14px;
-    padding: 4px;
+    font-size: 17px;
     font-weight: 500;
+    height: 50px;
+    line-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -74,11 +75,11 @@ a {
 
 header {
     box-shadow: 0px 2px 10px lightgrey;
-    padding: 0px 100px;
+    padding: 0px 60px;
 }
 
 header .navbar-nav .nav-item {
-    padding: 0px 20px;
+    padding: 0px 10px;
     margin: 0;
 }
 
@@ -111,10 +112,17 @@ header .navbar-nav .nav-link:hover::before {
 }
 
 header .navbar-nav .nav-item .dropdown-menu {
-    top: 52px;
+    top: 55px;
     left: auto;
     transition: all 1s;
-    width: 250px;
+    width: 270px;
+    padding: 0;
+}
+
+header .navbar-nav .nav-item #hamburger_menu {
+    right: 0;
+    width: 200px;
+    /* background-color: #eff9ff; */
 }
 
 header .navbar-nav .nav-item:hover .dropdown-menu {
@@ -122,14 +130,16 @@ header .navbar-nav .nav-item:hover .dropdown-menu {
 }
 
 header .navbar-nav .nav-item .dropdown-menu .dropdown-item {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    transition: all 0.5s;
+    padding: 9px 20px;
+    transition: all 0.2s;
 }
 
 header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-    color: #4989B0;
+    color: #066fb1;
     letter-spacing: 0.7px;
+    background-color: rgb(240, 240, 240);
 }
 
 header #telbtn {
@@ -206,103 +216,6 @@ header .offcanvas-body ul li:hover a {
   #  Banner section end 
   --------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
-  #  Student Review start 
-  --------------------------------------------------------------*/
-
-#studentReview {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 300px;
-}
-
-#studentReview .slider-wrapper {
-    max-width: 1400px;
-    min-height: 450px;
-    margin: 0px 70px;
-    overflow: hidden;
-}
-
-#studentReview .card-list .card-item {
-    border: 2px solid rgb(202, 202, 202);
-    padding: 20px;
-    box-shadow: 0px 1px 5px 0px rgb(155, 155, 155), 0px 4px 5px 0px #8f9faa;
-
-}
-
-#studentReview .card-list .card-item .titleCard {
-    background-color: #22577A;
-    border-radius: 20px;
-    padding: 40px 32px 20px 32px;
-    position: relative;
-    color: white;
-}
-
-
-#studentReview .card-list .card-item .titleCard .studentImage {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    position: absolute;
-    top: -2.8rem;
-    width: 100%;
-
-}
-
-#studentReview .card-list .card-item .titleCard .studentImage .studentColor {
-    font-size: 60px;
-    color: #fcc40e;
-}
-/* #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
-    width: 60px;
-} */
-
-#studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
-    border: 2px solid #eaeaea;
-    border-radius: 50%;
-    padding: 10px;
-    background: #fff;
-    width: 110px;
-    height: 110px;
-}
-
-#studentReview .slider-wrapper .swiper-pagination-bullet {
-    background-color: rgb(165, 176, 223);
-    height: 16px;
-    width: 16px;
-    opacity: 1;
-    transition: all 0.4s;
-}
-
-#studentReview .slider-wrapper .swiper-pagination-bullet-active {
-    background-color: #22577A;
-    height: 18px;
-    width: 18px;
-}
-
-#studentReview .slider-wrapper .button-swiper {
-    color: #22577A;
-    transition: all 0.5s;
-    padding: 25px;
-    border-radius: 50%;
-    border: 2px solid #22577A;
-
-}
-
-#studentReview .slider-wrapper .button-swiper::after {
-    font-size: 15px;
-    font-weight: bolder;
-}
-
-#studentReview .slider-wrapper .button-swiper:hover {
-    background-color: #22577A;
-    color: white;
-}
-
-/*--------------------------------------------------------------
-  #  Student Review end 
-  --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
   #  Our Courses start
@@ -312,32 +225,33 @@ header .offcanvas-body ul li:hover a {
     font-family: 'Inter';
 }
 
-#ourCourses #enrollbtn,
-#ourCourses #buybtn {
-    padding: 9px 13%;
+#ourCourses #brochurebtn,
+#ourCourses #knowbtn {
+    padding: 10px auto;
     font-weight: 500;
     border: 1px solid #2E3192;
     border-radius: 5px;
     transition: all 0.6s;
     margin-right: 10px;
+    font-size: 15px;
 }
 
-#ourCourses #enrollbtn {
+#ourCourses #brochurebtn {
     background-color: white;
     color: #2E3192;
 }
 
-#ourCourses #buybtn {
+#ourCourses #knowbtn {
     background-color: #2E3192;
     color: white;
 }
 
-#ourCourses #enrollbtn:hover {
+#ourCourses #brochurebtn:hover {
     background-color: #2E3192;
     color: white;
 }
 
-#ourCourses #buybtn:hover {
+#ourCourses #knowbtn:hover {
     background-color: white;
     color: #2E3192;
 }
@@ -373,7 +287,6 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   #  Course Include end
   --------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
   #  whoCanJoin Section start 
   --------------------------------------------------------------*/
@@ -410,6 +323,53 @@ header .offcanvas-body ul li:hover a {
   #  whoCanJoin Section end 
   --------------------------------------------------------------*/
 
+/*--------------------------------------------------------------
+  #  insituteStatus Section start 
+  --------------------------------------------------------------*/
+
+#insituteStatus .insituteStatusBox {
+    border: 1px solid #0f0f0f1a;
+    border-radius: 4px;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 3rem; */
+    /* text-align: center; */
+    flex-direction: column;
+    box-shadow: 0px 2px 6px gray;
+    transition: all 0.7s;
+}
+
+#insituteStatus .insituteStatusBox span {
+    background-color: #E8EEF1;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    line-height: 2.5;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #313C97;
+}
+
+#insituteStatus .insituteStatusBox p {
+    font-size: 18px;
+}
+
+#insituteStatus .insituteStatusBox:hover {
+    transform: translateY(-20px);
+    background-color: #313C97;
+    color: white;
+}
+
+#insituteStatus #insituteStatusContent p {
+    word-break: break-all;
+}
+
+/*--------------------------------------------------------------
+    #  insituteStatus Section end 
+    --------------------------------------------------------------*/
 /*--------------------------------------------------------------
   #  Rating Section start 
   --------------------------------------------------------------*/
@@ -454,51 +414,6 @@ header .offcanvas-body ul li:hover a {
   #  roadMap Section end 
   --------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
-  #  insituteStatus Section start 
-  --------------------------------------------------------------*/
-
-#insituteStatus .insituteStatusBox {
-    border: 1px solid #0f0f0f1a;
-    border-radius: 4px;
-    width: 250px;
-    height: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding-left: 3rem; */
-    /* text-align: center; */
-    flex-direction: column;
-    box-shadow: 0px 2px 6px gray;
-    transition: all 0.7s;
-}
-
-#insituteStatus .insituteStatusBox span {
-    background-color: #E8EEF1;
-    text-align: center;
-    height: 70px;
-    width: 70px;
-    line-height: 2.5;
-    font-size: 30px;
-    border-radius: 50%;
-    color: #313C97;
-}
-#insituteStatus .insituteStatusBox p{
-    font-size: 18px;
-}
-#insituteStatus .insituteStatusBox:hover {
-    transform: translateY(-20px);
-    background-color: #313C97;
-    color: white;
-}
-
-#insituteStatus #insituteStatusContent p {
-    word-break: break-all;
-}
-
-/*--------------------------------------------------------------
-    #  insituteStatus Section end 
-    --------------------------------------------------------------*/
 /*--------------------------------------------------------------
   # whyChoose section start 
   --------------------------------------------------------------*/
@@ -630,78 +545,106 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   # whyChoose section end 
   --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
-  # Placed_Students section start 
+  #  Student Review start 
   --------------------------------------------------------------*/
-#placedStudent .col-12 .col .box {
+
+#studentReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+#studentReview .slider-wrapper {
+    max-width: 1400px;
+    min-height: 450px;
+    margin: 0px 70px;
     overflow: hidden;
-    border: 4px solid #1AB69D;
-    text-align: center;
-    position: relative;
 }
 
-#placedStudent .col-12 .col .box img {
-    transition: all 0.6s;
-}
-
-#placedStudent .col-12 .col .box p {
-    color: white;
-    position: absolute;
-    height: 0%;
-    width: 100%;
-    bottom: -10%;
-    left: 0;
-    right: 0;
-    background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(0, 0, 0, 0.5));
-    transition: all 0.5s;
-}
-
-#placedStudent .col-12 .col .box:hover img {
-    transform: scale(1.2);
-}
-
-#placedStudent .col-12 .col .box:hover p {
-    height: 110%;
-    padding: 25% 0;
-}
-
-/*--------------------------------------------------------------
-    # Placed_Students section end 
- --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-    #admissionProcess section start 
---------------------------------------------------------------*/
-#admissionProcess {
-    background-color: #e8f3f8;
-}
-
-#admissionProcess .admissionProcessBox {
-    transition: all 0.6s;
-    box-shadow: 0px 3px 8px rgb(177, 177, 177);
-    border-radius: 10px;
-    background-color: white;
-}
-
-#admissionProcess .admissionProcessBox:hover {
-    background-color: #313C96;
-    color: white;
-}
-
-#admissionProcess .admissionProcessBox .col-3 div {
+#studentReview .card-list .card-item {
+    border: 2px solid rgb(202, 202, 202);
     padding: 20px;
-    background-color: #e6e6e6;
-    color: #313C96;
+    box-shadow: 0px 1px 5px 0px rgb(155, 155, 155), 0px 4px 5px 0px #8f9faa;
+
+}
+
+#studentReview .card-list .card-item .titleCard {
+    background-color: #22577A;
+    border-radius: 20px;
+    padding: 40px 32px 20px 32px;
+    position: relative;
+    color: white;
+}
+
+
+#studentReview .card-list .card-item .titleCard .studentImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    top: -2.8rem;
+    width: 100%;
+
+}
+
+#studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+    font-size: 60px;
+    color: #fcc40e;
+}
+
+/* #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+    width: 60px;
+} */
+
+#studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+    border: 2px solid #eaeaea;
     border-radius: 50%;
-    margin-top: auto;
-    font-size: 35px;
-    display: inline-block;
-    line-height: 1;
-    margin-top: 15px;
+    padding: 10px;
+    background: #fff;
+    width: 110px;
+    height: 110px;
+}
+
+#studentReview .slider-wrapper .swiper-pagination-bullet {
+    background-color: rgb(165, 176, 223);
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#studentReview .slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #22577A;
+    height: 18px;
+    width: 18px;
+}
+
+#studentReview .slider-wrapper .button-swiper {
+    color: #22577A;
+    transition: all 0.5s;
+    padding: 25px;
+    border-radius: 50%;
+    border: 2px solid #22577A;
+
+}
+
+#studentReview .slider-wrapper .button-swiper::after {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#studentReview .slider-wrapper .button-swiper:hover {
+    background-color: #22577A;
+    color: white;
 }
 
 /*--------------------------------------------------------------
-    #admissionProcess section end 
---------------------------------------------------------------*/
+  #  Student Review end 
+  --------------------------------------------------------------*/
 /*--------------------------------------------------------------
     # linkWhatsapp section start 
 --------------------------------------------------------------*/
@@ -729,71 +672,6 @@ header .offcanvas-body ul li:hover a {
 
 /*--------------------------------------------------------------
     # linkWhatsapp section end 
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
-    # upComingBatches section start 
---------------------------------------------------------------*/
-#upcomingBatches {
-    background-color: #ECF1F6;
-}
-
-#upcomingBatches table {
-    min-width: 450px;
-}
-
-#upcomingBatches table .tabletop {
-    background-color: #5e2883 !important;
-    color: #fff !important;
-}
-
-/*--------------------------------------------------------------
-    # upComingBatches section end 
---------------------------------------------------------------*/
-/*--------------------------------------------------------------
-    # faqs section start
---------------------------------------------------------------*/
-#faqs {
-    text-align: center;
-    padding: 48px 0px;
-}
-
-#faqs #accordionExample .accordion-item {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
-    padding: 0px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#faqs #accordionExample .accordion-item .accordion-button {
-    font-weight: 500;
-    padding: 20px;
-    transition: all 0.5s;
-}
-
-#faqs #accordionExample .accordion-item .accordion-button::after {
-    background-color: white;
-    border-radius: 50%;
-    width: 28px;
-    height: 28px;
-    background-position: center;
-}
-
-#faqs #accordionExample .accordion-item .accordion-button:not(.collapsed) {
-    background-color: #313C96;
-    color: white;
-}
-
-#faqs #accordionExample .accordion-item .accordion-body {
-    font-weight: normal;
-}
-
-/*--------------------------------------------------------------
-    # faqs section end
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
     # footer section start
@@ -966,9 +844,7 @@ footer .social-icons li a:hover {
         font-size: 28px;
     }
 
-    .rating-section .rating-logo {
-        height: 30px;
-    }
+
 
     #whoCanJoin {
         padding: 60px 0px 0px 40px;
@@ -986,6 +862,10 @@ footer .social-icons li a:hover {
     #whoCanJoin #register {
         padding: 5px 50px;
         font-size: 20px;
+    }
+
+    .rating-section .rating-logo {
+        height: 30px;
     }
 
     #roadMap #roadMapBox {
@@ -1007,13 +887,6 @@ footer .social-icons li a:hover {
         margin-left: 0px;
     }
 
-    #upcomingBatches table {
-        font-size: 15px;
-    }
-
-    #upcomingBatches table .btn {
-        font-size: 15px;
-    }
 }
 
 /*--------------------------------------------------------------
@@ -1048,19 +921,7 @@ footer .social-icons li a:hover {
         font-size: 25px;
     }
 
-    #swiper .slider-wrapper {
-        margin: 0px 0px;
-    }
 
-    #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
-        padding: 8px;
-        background: #fff;
-        width: 90px;
-        height: 90px;
-
-    }
-
-    
     #whoCanJoin {
         padding: 40px 0px 0px 20px;
     }
@@ -1078,32 +939,22 @@ footer .social-icons li a:hover {
         padding: 5px 50px;
         font-size: 20px;
     }
-    #insituteStatus .insituteStatusBox{
+
+    #insituteStatus .insituteStatusBox {
         width: 100%;
         height: 200px;
     }
-    #admissionProcess .admissionProcessBox .col-3 div {
-        padding: 15px;
-        font-size: 25px;
-        display: inline-block;
-        line-height: 1;
-        margin-top: 25px;
+
+    #swiper .slider-wrapper {
+        margin: 0px 0px;
     }
 
-    #admissionProcess .admissionProcessBox .col-9 h5 {
-        font-size: 18px;
-    }
+    #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+        padding: 8px;
+        background: #fff;
+        width: 90px;
+        height: 90px;
 
-    #admissionProcess .admissionProcessBox .col-9 p {
-        font-size: 15px;
-    }
-
-    #upcomingBatches table {
-        font-size: 14px;
-    }
-
-    #upcomingBatches table .btn {
-        font-size: 14px;
     }
 
     footer .footer-top {
@@ -1134,6 +985,15 @@ footer .social-icons li a:hover {
         font-size: 22px;
     }
 
+    #roadMap #roadMapBox {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    #roadMap #roadMapBox .roadMapBoxSpan {
+        font-size: 22px;
+    }
+
     #whyChoose #chooseMobileBox .col-3 div {
         padding: 17px;
         font-size: 28px;
@@ -1148,14 +1008,6 @@ footer .social-icons li a:hover {
         font-size: 15px;
     }
 
-    #roadMap #roadMapBox {
-        font-size: 15px;
-        padding: 12px;
-    }
-
-    #roadMap #roadMapBox .roadMapBoxSpan {
-        font-size: 22px;
-    }
 }
 
 /*--------------------------------------------------------------
@@ -1173,9 +1025,6 @@ footer .social-icons li a:hover {
 
     #banner .wrapper .static-txt {
         font-size: 20px;
-    }
-    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
-        font-size: 50px;
     }
 
     #whoCanJoin {
@@ -1196,12 +1045,8 @@ footer .social-icons li a:hover {
         font-size: 18px;
     }
 
-    #whyChoose #chooseMobileBox h5 {
-        font-size: 16px;
-    }
-
-    #whyChoose #chooseMobileBox p {
-        font-size: 14px;
+    #insituteStatus .insituteStatusBox p {
+        font-size: 15px;
     }
 
     #roadMap #roadMapBox {
@@ -1212,24 +1057,19 @@ footer .social-icons li a:hover {
     #roadMap #roadMapBox .roadMapBoxSpan {
         font-size: 20px;
     }
-    #insituteStatus .insituteStatusBox p{
-       font-size: 15px;
-    }
-    #admissionProcess .admissionProcessBox .col-9 h5 {
+
+    #whyChoose #chooseMobileBox h5 {
         font-size: 16px;
     }
 
-    #admissionProcess .admissionProcessBox .col-9 p {
+    #whyChoose #chooseMobileBox p {
         font-size: 14px;
     }
 
-    #upcomingBatches table {
-        font-size: 12px;
+    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+        font-size: 50px;
     }
 
-    #upcomingBatches table .btn {
-        font-size: 12px;
-    }
 }
 
 /*--------------------------------------------------------------

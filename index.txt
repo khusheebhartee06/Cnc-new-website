@@ -1,0 +1,3080 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title># Best Java Course | Frontend Development | Python Training Center Online - CNC WEB WORLD</title>
+    <link rel="shortcut icon" href="./assest/img/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="body">
+    <!-- top header start -->
+    <section id="topheader" class="text-white text-center">
+        Admissions Open for Job Oriented Courses.
+    </section>
+    <!-- top header end -->
+    <!-- header start -->
+    <header class="sticky-top bg-white">
+        <nav class="navbar navbar-expand-md  p-0">
+            <div class="container-lg py-1">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assest/img/logo.png" width="110px" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./assest/img/python.png" width="30px" alt=""> &nbsp; Python Full Stack
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./assest/img/java.png" width="30px" alt=""> &nbsp; Java Full Stack
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./assest/img/c.png" width="30px" alt=""> &nbsp; C & C++ Training
+                                        Course
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./assest/img/full.png" width="30px" alt=""> &nbsp; Full Stack
+                                        Development
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./assest/img/react.png" width="30px" alt=""> &nbsp; Best React Course
+                                    </a></li>
+                                <li><a class="dropdown-item" href="#">
+                                        <img src="./assest/img/angular.png" width="30px" alt=""> &nbsp; Angular Training
+                                        Course
+                                    </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Placement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Free Webinar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <a href="tel:+917400332999" class="btn" id="telbtn">+91-7400332999</a>
+
+                        <a href="#" class="btn" id="telbtn">Log In</a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+
+                <a class="offcanvas-title" href="index.html">
+                    <img src="./assest/img/logo.png" width="110px" alt="logo" class="img-fluid">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li>
+                        <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#courseOffcanvas"
+                            aria-controls="courseOffcanvas" class="d-flex justify-content-between">
+                            <span>Courses</span>
+                            <span><i class="fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Placement</a>
+                    </li>
+                    <li>
+                        <a href="#">Free Webinar</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#locationsOffcanvas"
+                            aria-controls="locationsOffcanvas" class="d-flex justify-content-between">
+                            <span>Locations</span>
+                            <span><i class="fa-solid fa-angle-right"></i></span>
+                        </a>
+                    </li>
+                    <a href="tel:+917400332999" class="btn" id="telbtn">+91-7400332999</a>
+
+                    <a href="#" class="btn" id="telbtn">Log In</a>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="courseOffcanvas" aria-labelledby="courseOffcanvas">
+            <div class="offcanvas-header">
+                <a class="offcanvas-title" href="index.html">
+                    <img src="./assest/img/logo.png" width="110px" alt="logo" class="img-fluid">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a href="#" class="fw-semibold text-decoration-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="fa-solid fa-angle-left"></i> Courses
+                </a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/python.png" width="30px" alt=""> &nbsp; Python Full Stack
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/java.png" width="30px" alt=""> &nbsp; Java Full Stack
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/c.png" width="30px" alt=""> &nbsp; C & C++ Training
+                            Course
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/full.png" width="30px" alt=""> &nbsp; Full Stack
+                            Development
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/react.png" width="30px" alt=""> &nbsp; Best React Course
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assest/img/angular.png" width="30px" alt=""> &nbsp; Angular Training
+                            Course
+                        </a>
+                    </li>
+                    <a href="tel:+917400332999" class="btn" id="telbtn">+91-7400332999</a>
+
+                    <a href="#" class="btn" id="telbtn">Log In</a>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="locationsOffcanvas" aria-labelledby="locationsOffcanvas">
+            <div class="offcanvas-header">
+                <a class="offcanvas-title" href="index.html">
+                    <img src="./assest/img/logo.png" width="110px" alt="logo" class="img-fluid">
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a href="#" class="fw-semibold text-decoration-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="fa-solid fa-angle-left"></i> Locations
+                </a>
+                <ul>
+
+                    <li>
+                        <a href="#">Mumbai</a>
+                    </li>
+                    <li>
+                        <a href="#">Pune</a>
+                    </li>
+                    <li>
+                        <a href="#">Vijapur</a>
+                    </li>
+                    <a href="tel:+917400332999" class="btn" id="telbtn">+91-7400332999</a>
+
+                    <a href="#" class="btn" id="telbtn">Log In</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- Banner start -->
+    <section id="banner">
+        <div class="wrapper">
+            <div class="static-txt">Skyrocket Your <span class="dynamic-txts"></span></div>
+        </div>
+    </section>
+    <!-- Banner end -->
+    <!-- Student Review start -->
+    <section id="studentReview">
+        <div class="container-fluid px-0 px-md-5 py-5 swiper">
+            <h2 class="text-center fw-bold mb-5 blue">Student Review</h2>
+            <div class="slider-wrapper ">
+                <div class="card-list swiper-wrapper">
+                    <div class="card-item rounded-4 swiper-slide">
+                        <div class="card-body rounded-4 border">
+                            <div class="titleCard">
+                                <div class="studentImage row">
+                                    <div class="col-6">
+                                        <span class="studentColor"><i class="fa-solid fa-quote-left"></i></span>
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="./assest/img/st.webp" alt=""
+                                            class="mt-3 img-fluid studentImageRounded">
+                                    </div>
+                                </div>
+                                <h4 class="card-title mt-4">Raju</h4>
+                            </div>
+                            <p class="card-text p-3">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content.on the card title and make up the bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content. <a href="#" class="text-decoration-none">Read more</a></p>
+                        </div>
+                    </div>
+                    <div class="card-item rounded-4 swiper-slide">
+                        <div class="card-body rounded-4 border">
+                            <div class="titleCard">
+                                <div class="studentImage row">
+                                    <div class="col-6">
+                                        <span class="studentColor"><i class="fa-solid fa-quote-left"></i></span>
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="./assest/img/st.webp" alt=""
+                                            class="mt-3 img-fluid studentImageRounded">
+                                    </div>
+                                </div>
+                                <h4 class="card-title mt-4">Raju</h4>
+                            </div>
+                            <p class="card-text p-3">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content.on the card title and make up the bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content. <a href="#" class="text-decoration-none">Read more</a></p>
+                        </div>
+                    </div>
+                    <div class="card-item rounded-4 swiper-slide">
+                        <div class="card-body rounded-4 border">
+                            <div class="titleCard">
+                                <div class="studentImage row">
+                                    <div class="col-6">
+                                        <span class="studentColor"><i class="fa-solid fa-quote-left"></i></span>
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="./assest/img/st.webp" alt=""
+                                            class="mt-3 img-fluid studentImageRounded">
+                                    </div>
+                                </div>
+                                <h4 class="card-title mt-4">Raju</h4>
+                            </div>
+                            <p class="card-text p-3">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content.on the card title and make up the bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content. <a href="#" class="text-decoration-none">Read more</a></p>
+                        </div>
+                    </div>
+                    <div class="card-item rounded-4 swiper-slide">
+                        <div class="card-body rounded-4 border">
+                            <div class="titleCard">
+                                <div class="studentImage row">
+                                    <div class="col-6">
+                                        <span class="studentColor"><i class="fa-solid fa-quote-left"></i></span>
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="./assest/img/st.webp" alt=""
+                                            class=" mt-3 img-fluid studentImageRounded">
+                                    </div>
+                                </div>
+                                <h4 class="card-title mt-4">Raju</h4>
+                            </div>
+                            <p class="card-text p-3">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content.on the card title and make up the bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content. <a href="#" class="text-decoration-none">Read more</a></p>
+                        </div>
+                    </div>
+                    <div class="card-item rounded-4 swiper-slide">
+                        <div class="card-body rounded-4 border">
+                            <div class="titleCard">
+                                <div class="studentImage row">
+                                    <div class="col-6">
+                                        <span class="studentColor"><i class="fa-solid fa-quote-left"></i></span>
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="./assest/img/st.webp" alt=""
+                                            class=" mt-3 img-fluid studentImageRounded">
+                                    </div>
+                                </div>
+                                <h4 class="card-title mt-4">Raju</h4>
+                            </div>
+                            <p class="card-text p-3">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content.on the card title and make up the bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content. <a href="#" class="text-decoration-none">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev
+        button-swiper"></div>
+                <div class="swiper-button-next
+        button-swiper"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Student Review end -->
+    <!-- Our Courses start -->
+    <section id="ourCourses">
+        <div class="container py-5 px-4 px-md-0">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="fw-bold blue">Our Courses</h2>
+                </div>
+            </div>
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                <div class="col  mb-4">
+                    <div class="card">
+                        <img src="./assest/img/data-analytics.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title Lorem, ipsum dolor.</h5>
+                            <p class="card-text text-muted "><small>Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</small></p>
+
+                            <h6 class="mt-5">Classes starting soon - Enroll Now!</h6>
+                            <div class="d-flex  mt-3">
+                                <a href="#" class="btn" id="enrollbtn">Enroll</a>
+                                <a href="#" class="btn" id="buybtn">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./assest/img/software-testing.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title Lorem, ipsum dolor.</h5>
+                            <p class="card-text text-muted "><small>Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</small></p>
+
+                            <h6 class="mt-5">Classes starting soon - Enroll Now!</h6>
+                            <div class="d-flex  mt-3">
+                                <a href="#" class="btn" id="enrollbtn">Enroll</a>
+                                <a href="#" class="btn" id="buybtn">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./assest/img/ai-with-java.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title Lorem, ipsum dolor.</h5>
+                            <p class="card-text text-muted "><small>Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</small></p>
+
+                            <h6 class="mt-5">Classes starting soon - Enroll Now!</h6>
+                            <div class="d-flex  mt-3">
+                                <a href="#" class="btn" id="enrollbtn">Enroll</a>
+                                <a href="#" class="btn" id="buybtn">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./assest/img/ai-with-java.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title Lorem, ipsum dolor.</h5>
+                            <p class="card-text text-muted "><small>Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</small></p>
+
+                            <h6 class="mt-5">Classes starting soon - Enroll Now!</h6>
+                            <div class="d-flex  mt-3">
+                                <a href="#" class="btn" id="enrollbtn">Enroll</a>
+                                <a href="#" class="btn" id="buybtn">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./assest/img/ai-with-java.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title Lorem, ipsum dolor.</h5>
+                            <p class="card-text text-muted "><small>Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</small></p>
+
+                            <h6 class="mt-5">Classes starting soon - Enroll Now!</h6>
+                            <div class="d-flex  mt-3">
+                                <a href="#" class="btn" id="enrollbtn">Enroll</a>
+                                <a href="#" class="btn" id="buybtn">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="./assest/img/ai-with-java.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title Lorem, ipsum dolor.</h5>
+                            <p class="card-text text-muted "><small>Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</small></p>
+
+                            <h6 class="mt-5">Classes starting soon - Enroll Now!</h6>
+                            <div class="d-flex  mt-3">
+                                <a href="#" class="btn" id="enrollbtn">Enroll</a>
+                                <a href="#" class="btn" id="buybtn">Buy Now</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Our Courses end -->
+    <!-- Course Include start -->
+    <section id="courseInclude">
+        <div class="container py-5 px-4 px-sm-0">
+            <div class="row  text-center">
+                <div class="col-md-3 py-5">
+                    <h3 class="fw-bold blue mt-auto">Course Includes</h3>
+                </div>
+                <div class="col-md-9">
+                    <div class="row row-cols-md-6 row-cols-sm-2 row-cols-2">
+                        <div class="col  mb-4">
+                            <span class="includeIcon bg-red">
+                                <i class="fa-solid fa-laptop-file"></i>
+                            </span>
+                            <h6 class="fw-semibold">Technical training</h6>
+                        </div>
+                        <div class="col mb-4">
+                            <span class="includeIcon bg-lightblue">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </span>
+                            <h6 class="fw-semibold">Soft Skills Training</h6>
+                        </div>
+                        <div class="col mb-4">
+                            <span class="includeIcon bg-green">
+                                <i class="fa-solid fa-person-chalkboard"></i>
+                            </span>
+                            <h6 class="fw-semibold">Live Project</h6>
+                        </div>
+                        <div class="col mb-4">
+                            <span class="includeIcon bg-pink">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                            </span>
+                            <h6 class="fw-semibold">Mock Interview Preparation</h6>
+                        </div>
+                        <div class="col mb-4">
+                            <span class="includeIcon bg-yellow">
+                                <i class="fa-solid fa-book-open-reader"></i>
+                            </span>
+                            <h6 class="fw-semibold">Resume Preparation</h6>
+                        </div>
+                        <div class="col mb-4">
+                            <span class="includeIcon bg-bluelight">
+                                <i class="fa-solid fa-award"></i>
+                            </span>
+                            <h6 class="fw-semibold">100% Placement</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Course Include end -->
+    <!-- whoCanJoin start -->
+    <section id="whoCanJoin">
+        <div class="container-fluid ">
+            <div class="row mb-4">
+                <div class="col text-white">
+                    <h1 class="display-4 fw-bolder">Who Can Enroll in an
+                        <span style="color: #fa9006; font-weight: bolder;">IT Course?</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-white ">
+                    <h2>
+                        <span>
+                            <!-- <i class="fa-solid fa-graduation-cap"></i>  -->
+                            <i class="fa-solid fa-users"></i>
+                        </span>
+                        College Students
+                    </h2>
+                    <h2>
+                        <span> <i class="fa-solid fa-user-tie"></i> </span>
+                        Working Professionals
+                    </h2>
+                    <h2>
+                        <span> <i class="fa-solid fa-house-user"></i> </span>
+                        Home Makers
+                    </h2>
+                    <h2>
+                        <span> <i class="fa-solid fa-user-graduate"></i> </span>
+                        Non-IT Students
+                    </h2>
+                    <button class="btn" id="register">Register Now</button>
+                </div>
+                <di class="col-lg-7 col-md-6 col-sm-6  mb-0 pb-0 p-0">
+                    <img src="./assest/img/Who-can-join-img.png" class="img-fluid " alt="">
+                </di>
+            </div>
+        </div>
+    </section>
+    <!-- WhoCanJoin end -->
+    <!-- Rating Section end -->
+    <section id="ratingSection" class=" my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6 text-center my-3">
+                    <img src="./assest/img/google.png" alt="Google Logo" class="rating-logo img-fluid">
+                    <hr class="mx-auto my-2 w-md-25 w-50">
+                    <div class="d-flex justify-content-center gap-1">
+                        <h5 class="fw-700">4.5</h5>
+                        <span>(1038)</span>
+                    </div>
+                    <div class="star-set">
+                        <div class="rating-stars">
+                            <small>
+                                <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fas fa-star-half-alt text-warning"></i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-6 text-center my-3">
+                    <img src="./assest/img/facebook.png" alt="Facebook Logo" class="rating-logo  img-fluid">
+                    <hr class="mx-auto my-2 w-md-25 w-50">
+                    <div class="d-flex justify-content-center gap-1">
+                        <h5 class="fw-700">4.7</h5>
+                        <span>(312)</span>
+                    </div>
+                    <div class="star-set">
+                        <div class="rating-stars">
+                            <small>
+                                <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fas fa-star-half-alt text-warning"></i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6 text-center my-3 mx-auto">
+                    <img src="./assest/img/justdial.png" alt="JustDial Logo" class="rating-logo pb-2  img-fluid">
+                    <hr class="mx-auto my-2 w-md-25 w-50">
+                    <div class="d-flex justify-content-center gap-1">
+                        <h5 class="fw-700">4.3</h5>
+                        <span>(984)</span>
+                    </div>
+                    <div class="star-set">
+                        <div class="rating-stars">
+                            <small>
+                                <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                    class="fas fa-star-half-alt text-warning"></i>
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rating Section end -->
+    <!-- roadMap start -->
+    <section id="roadMap">
+        <div class="container-fluid p-5">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="fw-bold text-white">Discover Your Career Roadmap to Secure a Job in Top MNCs</h2>
+                </div>
+            </div>
+            <div class="row pt-4 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 g-3">
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i>  -->
+                            &#x1F4DA;&#x1F3AF;
+                        </span>
+                        Expert Guidance
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x2705;&#x1F4D6;
+                        </span>
+                        Course Selection
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F4C8;&#x1F4DA;
+                        </span>
+                        In-Depth Training
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F5E3;&#x1F4A1;
+                        </span>
+                        Soft Skills Development
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F4BB;&#x1F528;
+                        </span>
+                        Hands-on Live Projects
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F680;&#x1F4C2;
+                        </span>
+                        Project Deployment Assistance
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F3A4;&#x2753;
+                        </span>
+                        Interview Q&A Preparation
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F3AD;&#x1F4DD;
+                        </span>
+                        Mock Interviews
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F4CB;&#x2728;
+                        </span>
+                        Resume Building
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F501;&#x1F3AF;
+                        </span>
+                        Unlimited Interview Opportunities
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x1F3C6;&#x1F91D;
+                        </span>
+                        Guaranteed Placement Support
+                    </div>
+                </div>
+                <div class="col d-flex">
+                    <div id="roadMapBox">
+                        <span class="roadMapBoxSpan">
+                            <!-- <i class="fa-solid fa-circle-check"></i> -->
+                            &#x2B50;&#x1F680;
+                        </span>
+                        A Successful Career Ahead
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- roadMap end -->
+
+    <!-- insituteStatus Section start -->
+    <section id="insituteStatus">
+        <div class="container-lg py-5 px-5 px-lg-0">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="insituteStatusBox">
+                                <span>
+                                    <i class="fa-solid fa-users"></i>
+                                </span>
+                                <h3 class="fw-bolder mt-2">10,000+</h3>
+                                <p class="fw-semibold ">Student</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="insituteStatusBox">
+                                <span>
+                                    <!-- <i class="fa-solid fa-city"></i> -->
+                                    <i class="fa-solid fa-building-user"></i>
+                                </span>
+                                <h3 class="fw-bolder mt-2">750+</h3>
+                                <p class="fw-semibold ">Placement partner</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="insituteStatusBox">
+                                <span>
+                                    <i class="fa-solid fa-award"></i>
+                                </span>
+                                <h3 class="fw-bolder mt-2">8,500+</h3>
+                                <p class="fw-semibold ">Placed Student</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="insituteStatusBox">
+                                <span>
+                                    <i class="fa-solid fa-house-laptop"></i>
+                                </span>
+                                <h3 class="fw-bolder mt-2">Mode -</h3>
+                                <p class="fw-semibold ">Online | Offline</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 py-4 px-lg-5" id="insituteStatusContent">
+                    <h2 class="fw-bold blue">About Us </h2>
+                    <h5>Empowering Careers Through Practical IT Training </h5>
+                    <p>CNC WEB WORLD is a premier destination for IT training, dedicated to equipping students with
+                        industry-relevant skills. Our mission is to bridge the gap between theoretical knowledge and
+                        real-world application, ensuring our students are job-ready upon course completion.</p>
+                    <h5>Practical Learning for Real-World Success </h5>
+                    <p>In today’s competitive job market, many graduates lack the practical skills required by the IT
+                        industry. At CNC WEB WORLD, we address this gap by offering a unique one-on-one training model,
+                        ensuring personalized attention and in-depth learning. Our hands-on approach enables students to
+                        gain real-time experience, enhancing their technical proficiency and confidence. </p>
+                    <button class="btn px-5 fs-5" id="telbtn">Inquire Now <i
+                            class="fa-solid fa-right-long"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- insituteStatus Section end -->
+
+    <!-- Why choose  start -->
+    <section id="whyChoose" class="py-5 text-center">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-8 text-center mx-auto">
+                    <h2 class="fw-bold">Why Choose CNC WEB WORLD? </h2>
+                    <p class="d-none d-md-block">At CNC WEB WORLD, we are committed to providing top-notch training that
+                        bridges the gap between academic knowledge and industry requirements. Our structured programs
+                        ensure that students receive practical, job-oriented learning, equipping them with the necessary
+                        skills to succeed in the competitive IT industry. Here’s why CNC WEB WORLD stands out: </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-md px-5 swiper mySwiper d-none d-md-block">
+            <div class="slider-wrapper">
+                <div class="swiper-wrapper">
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-training.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>100% Practical Training</h5>
+                            <p class="mb-0">We believe in learning by doing. Our training methodology is centered around
+                                hands-on experience with real-world applications, ensuring that students can confidently
+                                implement their knowledge in professional environments.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-authorized.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Authorized Training Center</h5>
+                            <p class="mb-0">CNC WEB WORLD is a recognized and certified training institute, ensuring
+                                that you receive high-quality education from experienced professionals. Our
+                                certification adds credibility to your learning journey and enhances your career
+                                prospects.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-persionalized.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Personalized Attention</h5>
+                            <p class="mb-0">Every student is unique, and we ensure a customized learning experience
+                                through small batch sizes and one-on-one guidance. This approach helps students grasp
+                                concepts effectively and progress at their own pace.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-doubt-resolution.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Instant Doubt Resolution</h5>
+                            <p class="mb-0">Learning is most effective when doubts are cleared immediately. Our
+                                instructors are always available to address queries and provide instant solutions,
+                                ensuring a smooth learning experience without confusion.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-study.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Hardcopy Study Materials</h5>
+                            <p class="mb-0">We provide comprehensive study materials in hardcopy format, enabling
+                                students to refer to important concepts anytime without relying solely on digital
+                                content. These resources serve as valuable reference guides during and after the course.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-recorded-video.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Pre-Recorded Video Access</h5>
+                            <p class="mb-0">To reinforce learning, we offer access to pre-recorded video sessions.
+                                Students can revisit lessons anytime, allowing for flexible and self-paced learning,
+                                especially useful for revision and clarification.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-profile-building.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Profile Building Sessions</h5>
+                            <p class="mb-0">A well-crafted professional profile is crucial for job seekers. Our
+                                profile-building sessions help students optimize their resumes, LinkedIn profiles, and
+                                portfolios to attract recruiters and stand out in the competitive job market.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-study-project.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Case Study Projects</h5>
+                            <p class="mb-0">Understanding theoretical concepts is essential, but applying them to
+                                real-world scenarios is what truly makes a difference. Our case study projects allow
+                                students to work on practical challenges and gain hands-on experience in solving
+                                industry-specific problems.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-softskill.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Soft Skills Training</h5>
+                            <p class="mb-0">Technical expertise alone is not enough for career success. Our soft skills
+                                training helps students develop effective communication, teamwork, leadership, and
+                                problem-solving abilities, making them more confident and job-ready.</p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-interview.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5> Mock Interviews</h5>
+                            <p class="mb-0">Interviews can be challenging, but practice makes perfect. We conduct mock
+                                interview sessions to simulate real-world job interviews, providing constructive
+                                feedback to help students refine their answers and boost their confidence. </p>
+                        </div>
+                    </div>
+                    <div class="chooseBox swiper-slide">
+                        <div class="chooseIcon">
+                            <img src="./assest/img/why-choose-weekend.png" alt="">
+                        </div>
+                        <div class="chooseText">
+                            <h5>Flexible Scheduling (Weekday & Weekend Batches)</h5>
+                            <p class="mb-0">We understand that students and working professionals have different
+                                schedules. To accommodate everyone, we offer both weekday and weekend batches, allowing
+                                learners to choose a schedule that best fits their convenience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="container-fluid px-sm-5 px-4  pt-4 text-start d-block d-md-none">
+            <div class="row g-3">
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row  ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">100% Practical Training</h5>
+                            <p>Gain hands-on experience with real-world applications. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row   ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Authorized Training Center</h5>
+                            <p>Learn from a certified and recognized institution </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Personalized Attention</h5>
+                            <p> Benefit from one-on-one guidance tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Instant Doubt Resolution</h5>
+                            <p>Get your queries addressed promptly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Hardcopy Study Materials</h5>
+                            <p>Access comprehensive learning resources.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Pre-Recorded Video Access</h5>
+                            <p>Revisit lessons anytime for better understanding.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Profile Building Sessions</h5>
+                            <p>Enhance your professional presence and resume.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Case Study Projects</h5>
+                            <p>Work on real-life scenarios to strengthen your skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Soft Skills Training </h5>
+                            <p>Develop communication and interpersonal skills. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Mock Interviews</h5>
+                            <p>Prepare with simulated interview sessions. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " id="chooseMobileBox">
+                    <div class="row ">
+                        <div class="col-3 py-2 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3 py-2">
+                            <h5 class="mt-2">Flexible Scheduling</h5>
+                            <p> Choose from weekday and weekend batches.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why choose  end -->
+    <!-- Placed Section end -->
+    <section id="placedStudent">
+        <div class="container-lg px-5 px-lg-0 py-5 text-center">
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <h2 class="fw-bold blue">
+                        Placed Students
+                    </h2>
+                </div>
+            </div>
+            <div class="row p-2 p-sm-5 mt-4  shadow-lg">
+                <div class="col-12">
+                    <div class="row  row-cols-md-3 row-cols-sm-2  row-cols-1 g-3">
+                        <div class="col aos-init aos-animate" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-1.jpeg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Komal</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-2.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Manvi</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-3.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Swati</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-4.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Shruti</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-5.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Parena</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-6.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Rushabh</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-7.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Sadulla</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-8.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Deeraj</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-9.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Amol</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-10.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Leela</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-11.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Pooja</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-12.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Atika</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-13.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Achal</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-14.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Pranjali</p>
+                            </div>
+                        </div>
+                        <div class="col aos-init" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="box ">
+                                <img src="https://cncwebworld.com/mumbai/images/student/plc-student-15.jpg"
+                                    class="img-fluid" width="100%" height="300px" alt="">
+                                <p class="fw-semibold h4">Aarti</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Placed Section end -->
+    <!-- admissionProcess start -->
+
+    <section id="admissionProcess">
+        <div class="container-lg px-5 px-lg-0 py-5">
+            <div class="row text-center">
+                <div class="col">
+                    <h2 class="fw-bold blue mb-4">Process for Admission</h2>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="row  admissionProcessBox">
+                        <div class="col-3 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3">
+                            <h5 class="mt-2">80:20 Approach</h5>
+                            <p>Our 80 Practical : 20 Theory model equips students with rich industry-oriented practical
+                                knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="row  admissionProcessBox">
+                        <div class="col-3 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3">
+                            <h5 class="mt-2">80:20 Approach</h5>
+                            <p>Our 80 Practical : 20 Theory model equips students with rich industry-oriented practical
+                                knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="row  admissionProcessBox">
+                        <div class="col-3 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3">
+                            <h5 class="mt-2">80:20 Approach</h5>
+                            <p>Our 80 Practical : 20 Theory model equips students with rich industry-oriented practical
+                                knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="row  admissionProcessBox">
+                        <div class="col-3 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3">
+                            <h5 class="mt-2">80:20 Approach</h5>
+                            <p>Our 80 Practical : 20 Theory model equips students with rich industry-oriented practical
+                                knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="row  admissionProcessBox">
+                        <div class="col-3 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3">
+                            <h5 class="mt-2">80:20 Approach</h5>
+                            <p>Our 80 Practical : 20 Theory model equips students with rich industry-oriented practical
+                                knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 px-md-3">
+                    <div class="row  admissionProcessBox">
+                        <div class="col-3 text-center"
+                            style="display: inline-block;border-right: 2px dashed #b4c461;max-height: 250px;">
+                            <!-- <img src="./assest/img/practical.svg"class="my-3" alt=""> -->
+                            <div><i class="fa-solid fa-person-chalkboard"></i></div>
+                        </div>
+                        <div class="col-9 px-3">
+                            <h5 class="mt-2">80:20 Approach</h5>
+                            <p>Our 80 Practical : 20 Theory model equips students with rich industry-oriented practical
+                                knowledge</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- admissionProcess end -->
+
+    <!-- linkWhatsapp start -->
+    <section id="linkWhatsapp">
+        <div class="container-lg text-center py-5">
+            <div class="linkRow d-flex justify-content-center">
+                <a href="">
+                    <img src="./assest/img/whatsapp.jpg" width="65px" height="65px" alt="" class="img-fluid">
+                </a>
+
+                <a href="#" class="fw-semibold linktext"> Whatsapp me the detailed DM
+                    Course
+                    brochure</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- linkWhatsapp end -->
+    <!-- upcomingBatches start -->
+    <section id="upcomingBatches" class="py-5 px-4 px-lg-0">
+        <div class="container-lg p-4 bg-white rounded-4">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="fw-bold blue text-center py-3">Upcoming Batches</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="table-responsive-lg">
+                        <table class="table  table-hover table-bordered fw-semibold border-muted">
+                            <thead>
+                                <tr class="text-center table-dark tabletop">
+                                    <th>Batch Time</th>
+                                    <th>Start Date</th>
+                                    <th>Duration</th>
+                                    <th>Online / Offline</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2:00 pm to 4:00 pm</td>
+                                    <td> 14 Feb </td>
+                                    <td>2.5 Months – Weekdays </td>
+                                    <td>Offline </td>
+                                    <th class="text-center">
+                                        <button class="btn btn-primary fw-semibold">Remind Me</button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>2:00 pm to 4:00 pm</td>
+                                    <td> 14 Feb </td>
+                                    <td>2.5 Months – Weekdays </td>
+                                    <td>Offline </td>
+                                    <th class="text-center">
+                                        <button class="btn btn-primary fw-semibold">Remind Me</button>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>2:00 pm to 4:00 pm</td>
+                                    <td> 14 Feb </td>
+                                    <td>2.5 Months – Weekdays </td>
+                                    <td>Offline </td>
+                                    <th class="text-center">
+                                        <button class="btn btn-primary fw-semibold">Remind Me</button>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- upcomingBatches end -->
+    <!-- faqs start -->
+    <section id="faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col mb-4">
+                    <h2 class="fw-bold blue">FAQ's</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="accordion text-start" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What language are the classes conducted in?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body ">
+                                Our classes at CNC Web World are conducted in Hinglish (a mix of Hindi and English). We
+                                also help you improve your written and spoken communication skills as part of the
+                                course.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Can I attend classes at my convenience?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, you must attend classes at the scheduled time. We require at least 90% attendance
+                                for all courses.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What kind of placement support do you offer?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">We provide 100% placement assistance, including interview
+                                preparation and guidance until you secure a job.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What computer specifications do I need?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                You'll need a computer with at least:
+                                <ul>
+                                    <li> 1.6 GHz processor (i3 or higher)</li>
+                                    <li>4GB or 8GB RAM</li>
+                                    <li>120GB hard drive</li>
+                                    <li>Webcam & microphone</li>
+                                    <li>Good internet connection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Where is CNC Web World located?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our registered office is in Navi Mumbai, Maharashtra for offline training. For online
+                                courses, you can attend from anywhere.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                What certificate will I receive after completing the course?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                You'll receive a CNC Web World Course Completion Certificate.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Who should I contact if I have questions or issues?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                For any queries, you can WhatsApp us at 9370486810. </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Do I need to pay enrollment fees?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes, there is a course fee. We also offer an installment payment option.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Which companies hire from CNC Web World?
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We refer students to top companies based on performance and help them prepare for job
+                                interviews with leading employers.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Do I need a Computer Science background to join?
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, a CS background is not mandatory. Even if you're from a non-IT background, you can
+                                still join. However, you should have basic computer knowledge.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                Can I take this course while studying or working?
+                            </button>
+                        </h2>
+                        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes! Our courses are designed for graduates, final-year students, and working
+                                professionals.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                What are the eligibility criteria for enrollment?
+                            </button>
+                        </h2>
+                        <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                You must be a graduate or a final-year student (from any stream). After filling out the
+                                application form, our team will contact you for the next steps.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThirteen" aria-expanded="false"
+                                aria-controls="collapseThirteen">
+                                What if I miss a lecture?
+                            </button>
+                        </h2>
+                        <div id="collapseThirteen" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No worries! You can access recorded sessions on our app or LMS anytime.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFourteen" aria-expanded="false"
+                                aria-controls="collapseFourteen">
+                                What is the average salary after completing a digital marketing course in Pune?
+                            </button>
+                        </h2>
+                        <div id="collapseFourteen" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Salaries vary based on factors like role, skills, and experience. However, on average, a
+                                digital marketing professional can earn between ₹2.5 to ₹5 lakh per year. Your salary
+                                can increase with experience.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                Can I get a refund?
+                            </button>
+                        </h2>
+                        <div id="collapseFifteen" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, we have a strict no-refund policy once the payment is made.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                                How do I enroll in an online or offline digital marketing course?
+                            </button>
+                        </h2>
+                        <div id="collapseSixteen" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ol>
+                                    <li>Fill out the admission form</li>
+                                    <li>Choose your preferred time slot</li>
+                                    <li>Make the payment</li>
+                                    <li>Join the batch</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faqs end -->
+    <!-- footer section start -->
+    <footer>
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <img src="https://cncwebworld.com/image/logoicon.png" style="max-width: 140px;" alt=""
+                            class="img-fluid">
+                        <ul>
+                            <li>
+                                <a href="https://maps.app.goo.gl/UBcTuWiEUj2aS1nXA" target="_blank">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <span>
+                                        Office No. 5, Good will Arcade Sector - 10 Nerul (W) Navi Mumbai-400706
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:help@cncwebworld.in">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <span>
+                                        help@cncwebworld.in
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:+917400332999">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <span>
+                                        740-033-2999
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <ul>
+                            <li>
+                                <h6>
+                                    ACHIEVEMENT
+                                </h6>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/placement.html">
+                                    Our Placement Partners
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/placed-studend.php">
+                                    Our Placed Students
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/franchise.html"> Franchise
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/hire.html">
+                                    Hire from us
+                                </a>
+                            </li>
+                            <li>
+                                <a href="blog.html">
+                                    Blog
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a href="">
+                                    Blog
+                                </a>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <ul>
+                            <li>
+                                <h6>
+                                    TERMS & CONDITION
+                                </h6>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/privacy-policy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/shipping-policy.html">
+                                    Shipping Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/cancellation-refund-policy.html">
+                                    Cancellation Refund Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/terms-&-condition.html">
+                                    Terms and Condition
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <ul>
+                            <li>
+                                <H6>BRANCHES</H6>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/">
+                                    Pune
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/mumbai/index.php">
+                                    Navi Mumbai
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cncwebworld.com/vijaypur/index.php">
+                                    Vijaypur
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-md-6 text-secondary fw-semibold">
+                    @ 2025 CNC WEB WORLD Design by <span style="color: #EEAA23;">CNC WEB WORLD Technologies Pvt
+                        Ltd</span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.facebook.com/cncwebworldonline">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/cncwebworld/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@cncwebworld">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/cncwebworld">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/cncwebworld">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./assest/js/script.js"></script>
+</body>
+
+</html>
+
+==========style.css==============
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.blue {
+    color: #2E3192;
+}
+
+.bg-red {
+    background-color: #f1030f;
+}
+
+.bg-lightblue {
+    background-color: #00a5ec;
+}
+
+.bg-green {
+    background-color: #188d27;
+}
+
+.bg-pink {
+    background-color: #8f3131;
+}
+
+.bg-yellow {
+    background-color: #f7b708;
+}
+
+.bg-bluelight {
+    background-color: #07ceec;
+}
+
+#telbtn {
+    background: linear-gradient(273.57deg, #2E3192 1.14%, #4C92BE 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    transition: all 0.5;
+    font-size: 15px;
+    padding: 0.5rem 1.5rem;
+}
+
+#telbtn:hover {
+    box-shadow: 4px 4px 10px grey;
+}
+
+/*--------------------------------------------------------------
+  #  topheader section start 
+  --------------------------------------------------------------*/
+
+#topheader {
+    background-color: #4989B0;
+    font-size: 17px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+}
+
+/*--------------------------------------------------------------
+  #  topheader section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  header section start 
+  --------------------------------------------------------------*/
+
+header {
+    box-shadow: 0px 2px 10px lightgrey;
+    padding: 0px 60px;
+}
+
+header .navbar-nav .nav-item {
+    padding: 0px 10px;
+    margin: 0;
+}
+
+header .navbar-nav .nav-link {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    transition: all 0.4s;
+    position: relative;
+}
+
+header .navbar-nav .nav-link::before {
+    content: '';
+    width: 0px;
+    height: 2px;
+    border-radius: 20px;
+    background-color: #4a70da;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+header .navbar-nav .nav-link:hover {
+    color: #4a70da;
+}
+
+header .navbar-nav .nav-link:hover::before {
+    width: 90%;
+}
+
+header .navbar-nav .nav-item .dropdown-menu {
+    top: 55px;
+    left: auto;
+    transition: all 1s;
+    width: 270px;
+    padding: 0;
+}
+
+header .navbar-nav .nav-item #hamburger_menu{
+    right: 0;
+    width: 200px;
+    /* background-color: #eff9ff; */
+}
+header .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+header .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 20px;
+    transition: all 0.2s;
+}
+
+header .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #066fb1;
+    letter-spacing: 0.7px;
+    background-color: rgb(240, 240, 240);
+}
+
+header #telbtn {
+    margin: 0px 15px;
+}
+
+header .offcanvas-body #telbtn {
+    margin: 10px 0px;
+    display: block;
+
+}
+
+header .offcanvas-body ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+header .offcanvas-body ul li {
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .offcanvas-body ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header .offcanvas-body ul li:hover {
+    background-color: rgb(216, 239, 247);
+    letter-spacing: 0.7px;
+    transition: all 0.5s;
+}
+
+header .offcanvas-body ul li:hover a {
+    color: #4a70da;
+}
+
+/*--------------------------------------------------------------
+  #  header section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Banner section start 
+  --------------------------------------------------------------*/
+#banner {
+    background: linear-gradient(to right, #021A64, rgba(255, 255, 255, 0.1)), url(../img/banner.jpeg) scroll no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    padding: 350px 70px 10px 70px;
+}
+
+#banner .wrapper {
+    display: inline-flex;
+    background-color: rgba(25, 33, 36, 0.8);
+    border-radius: 0px 20px;
+    padding: 20px
+}
+
+#banner .wrapper .static-txt {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+#banner .wrapper .static-txt span {
+    color: #09d1ec;
+}
+
+/*--------------------------------------------------------------
+  #  Banner section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Student Review start 
+  --------------------------------------------------------------*/
+
+#studentReview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+#studentReview .slider-wrapper {
+    max-width: 1400px;
+    min-height: 450px;
+    margin: 0px 70px;
+    overflow: hidden;
+}
+
+#studentReview .card-list .card-item {
+    border: 2px solid rgb(202, 202, 202);
+    padding: 20px;
+    box-shadow: 0px 1px 5px 0px rgb(155, 155, 155), 0px 4px 5px 0px #8f9faa;
+
+}
+
+#studentReview .card-list .card-item .titleCard {
+    background-color: #22577A;
+    border-radius: 20px;
+    padding: 40px 32px 20px 32px;
+    position: relative;
+    color: white;
+}
+
+
+#studentReview .card-list .card-item .titleCard .studentImage {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    top: -2.8rem;
+    width: 100%;
+
+}
+
+#studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+    font-size: 60px;
+    color: #fcc40e;
+}
+/* #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+    width: 60px;
+} */
+
+#studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+    border: 2px solid #eaeaea;
+    border-radius: 50%;
+    padding: 10px;
+    background: #fff;
+    width: 110px;
+    height: 110px;
+}
+
+#studentReview .slider-wrapper .swiper-pagination-bullet {
+    background-color: rgb(165, 176, 223);
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#studentReview .slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #22577A;
+    height: 18px;
+    width: 18px;
+}
+
+#studentReview .slider-wrapper .button-swiper {
+    color: #22577A;
+    transition: all 0.5s;
+    padding: 25px;
+    border-radius: 50%;
+    border: 2px solid #22577A;
+
+}
+
+#studentReview .slider-wrapper .button-swiper::after {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#studentReview .slider-wrapper .button-swiper:hover {
+    background-color: #22577A;
+    color: white;
+}
+
+/*--------------------------------------------------------------
+  #  Student Review end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Our Courses start
+  --------------------------------------------------------------*/
+
+#ourCourses .card {
+    font-family: 'Inter';
+}
+
+#ourCourses #brochurebtn,
+#ourCourses #knowbtn {
+    padding: 10px auto;
+    font-weight: 500;
+    border: 1px solid #2E3192;
+    border-radius: 5px;
+    transition: all 0.6s;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#ourCourses #brochurebtn {
+    background-color: white;
+    color: #2E3192;
+}
+
+#ourCourses #knowbtn {
+    background-color: #2E3192;
+    color: white;
+}
+
+#ourCourses #brochurebtn:hover {
+    background-color: #2E3192;
+    color: white;
+}
+
+#ourCourses #knowbtn:hover {
+    background-color: white;
+    color: #2E3192;
+}
+
+/*--------------------------------------------------------------
+  #  Our Courses end
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Course Include start
+  --------------------------------------------------------------*/
+
+#courseInclude {
+    background-color: #ECF0F2;
+}
+
+#courseInclude .col-md-9 .row .col .includeIcon {
+    transition: all .3s;
+    line-height: 2.2;
+    color: white;
+    border-radius: 50%;
+    font-size: 32px;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+#courseInclude .col-md-9 .row .col:hover .includeIcon {
+    transform: scale(1.2);
+}
+
+/*--------------------------------------------------------------
+  #  Course Include end
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  whoCanJoin Section start 
+  --------------------------------------------------------------*/
+
+#whoCanJoin {
+    background: url(../img/Who-can-join-bg.jpg) scroll;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px 0px 50px;
+}
+
+#whoCanJoin h2 {
+    line-height: 60px;
+    font-size: 38px;
+}
+
+#whoCanJoin #register {
+    background-color: #eea107;
+    color: white;
+    padding: 7px 70px;
+    border-radius: 30px;
+    font-size: 28px;
+    margin: 30px 0px 60px 0px;
+    font-weight: 500;
+    display: block;
+}
+
+#whoCanJoin .img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+  #  whoCanJoin Section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  Rating Section start 
+  --------------------------------------------------------------*/
+
+#ratingSection .rating-logo {
+    height: 40px;
+}
+
+/*--------------------------------------------------------------
+  #  Rating Section end 
+  --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+  #  roadMap Section start 
+  --------------------------------------------------------------*/
+#roadMap {
+    background-color: #20B2AA;
+}
+
+#roadMap #roadMapBox {
+    box-shadow: 0 3px 9px gray;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    width: 100%;
+    font-size: 17px;
+}
+
+#roadMap #roadMapBox:hover {
+    background-color: #FF5725;
+    color: white;
+    transform: translateY(-5px);
+}
+
+#roadMap #roadMapBox .roadMapBoxSpan {
+    font-size: 25px;
+}
+
+
+/*--------------------------------------------------------------
+  #  roadMap Section end 
+  --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+  #  insituteStatus Section start 
+  --------------------------------------------------------------*/
+
+#insituteStatus .insituteStatusBox {
+    border: 1px solid #0f0f0f1a;
+    border-radius: 4px;
+    width: 250px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 3rem; */
+    /* text-align: center; */
+    flex-direction: column;
+    box-shadow: 0px 2px 6px gray;
+    transition: all 0.7s;
+}
+
+#insituteStatus .insituteStatusBox span {
+    background-color: #E8EEF1;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    line-height: 2.5;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #313C97;
+}
+#insituteStatus .insituteStatusBox p{
+    font-size: 18px;
+}
+#insituteStatus .insituteStatusBox:hover {
+    transform: translateY(-20px);
+    background-color: #313C97;
+    color: white;
+}
+
+#insituteStatus #insituteStatusContent p {
+    word-break: break-all;
+}
+
+/*--------------------------------------------------------------
+    #  insituteStatus Section end 
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+  # whyChoose section start 
+  --------------------------------------------------------------*/
+#whyChoose {
+    background-color: #e0eaf3;
+}
+
+#whyChoose .slider-wrapper {
+    max-width: 1400px;
+    min-height: 500px;
+    /* margin: 0px 70px; */
+    overflow: hidden;
+    padding: 10px;
+}
+
+#whyChoose .slider-wrapper .swiper-button-next::after,
+#whyChoose .slider-wrapper .swiper-button-prev::after {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet {
+    background-color: rgb(165, 176, 223);
+    height: 16px;
+    width: 16px;
+    opacity: 1;
+    transition: all 0.4s;
+}
+
+#whyChoose .slider-wrapper .swiper-pagination-bullet-active {
+    background-color: #22577A;
+    height: 18px;
+    width: 18px;
+}
+
+#whyChoose .chooseBox {
+    padding: 30px 20px;
+    box-shadow: -1px 0 9px 0 rgba(191, 191, 191, 0.49);
+    border-radius: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    margin: 10px 0px;
+    min-height: 430px;
+    transition: all 0.6s;
+}
+
+#whyChoose .chooseBox::after {
+    position: absolute;
+    content: "";
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background-color: #0093d8;
+
+}
+
+#whyChoose .chooseBox:hover {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.31);
+    transform: scale(1.05);
+}
+
+#whyChoose .chooseBox:hover::after {
+    width: 100%;
+}
+
+#whyChoose .chooseBox .chooseIcon {
+    margin-bottom: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 73% 27% 38% 62% / 40% 43% 57% 60%;
+    line-height: 100px;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    box-shadow: 0 4px 24px 0 rgba(103, 151, 255, .15), 0 12px 64px 0 rgba(103, 151, 255, .15);
+    -webkit-transition-duration: 600ms;
+    -o-transition-duration: 600ms;
+    transition-duration: 600ms;
+}
+
+#whyChoose .chooseBox:hover .chooseIcon {
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg)
+}
+
+#whyChoose .chooseBox .chooseIcon img {
+    width: 80px;
+    display: block;
+    height: 80px;
+}
+
+#whyChoose .chooseBox .chooseText p {
+    font-size: 16px;
+    line-height: 25px;
+    min-height: 100px;
+    color: #888686;
+    letter-spacing: .5px;
+}
+
+#whyChoose #chooseMobileBox {
+    background-color: white;
+    transition: all 0.6s;
+    box-shadow: 0px 3px 5px rgb(177, 177, 177);
+    border-radius: 20px;
+}
+
+#whyChoose #chooseMobileBox:hover {
+    background-color: #313C96;
+    color: white;
+}
+
+#whyChoose #chooseMobileBox .col-3 div {
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #313C96;
+    border-radius: 50%;
+    margin-top: auto;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 1;
+}
+
+/*--------------------------------------------------------------
+  # whyChoose section end 
+  --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+  # Placed_Students section start 
+  --------------------------------------------------------------*/
+#placedStudent .col-12 .col .box {
+    overflow: hidden;
+    border: 4px solid #1AB69D;
+    text-align: center;
+    position: relative;
+}
+
+#placedStudent .col-12 .col .box img {
+    transition: all 0.6s;
+}
+
+#placedStudent .col-12 .col .box p {
+    color: white;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: -10%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(0, 0, 0, 0.5));
+    transition: all 0.5s;
+}
+
+#placedStudent .col-12 .col .box:hover img {
+    transform: scale(1.2);
+}
+
+#placedStudent .col-12 .col .box:hover p {
+    height: 110%;
+    padding: 25% 0;
+}
+
+/*--------------------------------------------------------------
+    # Placed_Students section end 
+ --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    #admissionProcess section start 
+--------------------------------------------------------------*/
+#admissionProcess {
+    background-color: #e8f3f8;
+}
+
+#admissionProcess .admissionProcessBox {
+    transition: all 0.6s;
+    box-shadow: 0px 3px 8px rgb(177, 177, 177);
+    border-radius: 10px;
+    background-color: white;
+}
+
+#admissionProcess .admissionProcessBox:hover {
+    background-color: #313C96;
+    color: white;
+}
+
+#admissionProcess .admissionProcessBox .col-3 div {
+    padding: 20px;
+    background-color: #e6e6e6;
+    color: #313C96;
+    border-radius: 50%;
+    margin-top: auto;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+/*--------------------------------------------------------------
+    #admissionProcess section end 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # linkWhatsapp section start 
+--------------------------------------------------------------*/
+#linkWhatsapp {
+    background-color: #29AF3E;
+    transition: all 1s;
+}
+
+#linkWhatsapp .linktext {
+    font-size: 36px;
+    line-height: 1.35em;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: white;
+    transition: all 0.6s;
+}
+
+#linkWhatsapp:hover {
+    background-color: white;
+}
+
+#linkWhatsapp:hover .linktext {
+    color: #29AF3E;
+}
+
+/*--------------------------------------------------------------
+    # linkWhatsapp section end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # upComingBatches section start 
+--------------------------------------------------------------*/
+#upcomingBatches {
+    background-color: #ECF1F6;
+}
+
+#upcomingBatches table {
+    min-width: 450px;
+}
+
+#upcomingBatches table .tabletop {
+    background-color: #5e2883 !important;
+    color: #fff !important;
+}
+
+/*--------------------------------------------------------------
+    # upComingBatches section end 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # faqs section start
+--------------------------------------------------------------*/
+#faqs {
+    text-align: center;
+    padding: 48px 0px;
+}
+
+#faqs #accordionExample .accordion-item {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .1);
+    padding: 0px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#faqs #accordionExample .accordion-item .accordion-button {
+    font-weight: 500;
+    padding: 20px;
+    transition: all 0.5s;
+}
+
+#faqs #accordionExample .accordion-item .accordion-button::after {
+    background-color: white;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    background-position: center;
+}
+
+#faqs #accordionExample .accordion-item .accordion-button:not(.collapsed) {
+    background-color: #313C96;
+    color: white;
+}
+
+#faqs #accordionExample .accordion-item .accordion-body {
+    font-weight: normal;
+}
+
+/*--------------------------------------------------------------
+    # faqs section end
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # footer section start
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # footer-top start
+--------------------------------------------------------------*/
+footer .footer-top {
+    background-color: #03032c;
+    color: white;
+    padding: 30px 40px 10px 40px;
+}
+
+footer .footer-top .col-md-3 ul {
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+footer .footer-top .col-md-3 ul li {
+    list-style: none;
+    padding: 8px 0px;
+    font-weight: 500;
+}
+
+footer .footer-top .col-md-3 ul li a {
+    color: white;
+    position: relative;
+    display: block;
+}
+
+footer .footer-top .col-md-3 ul li span {
+    margin-left: 10px;
+}
+
+footer .footer-top .col-md-3 ul li a::before {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -4px;
+    transition: all 0.4s;
+    border-radius: 50px;
+}
+
+footer .footer-top .col-md-3 ul li:hover a::before {
+    width: 80%;
+}
+
+/*--------------------------------------------------------------
+    # footer-bottom section start
+    --------------------------------------------------------------*/
+
+footer .footer-bottom {
+    /* #03032c,#02021E */
+    background-color: #03032c;
+    padding: 30px 40px 10px 40px;
+    border-top: 1px solid #e9e5e5;
+    box-shadow: -3px 0px 10px 0px gainsboro;
+}
+
+footer .footer-bottom .social-icons {
+    display: flex;
+    justify-content: end;
+}
+
+footer .footer-bottom .social-icons li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+footer .footer-bottom .social-icons li a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    line-height: 2.2;
+    text-align: center;
+    color: white;
+    display: block;
+    transition: all 0.4s;
+}
+
+footer .social-icons li a:hover {
+    color: #02021E;
+    background-color: white;
+    border: 1px solid #02021E;
+}
+
+/*--------------------------------------------------------------
+    # footer section start
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # screen max-width 1200px start 
+    --------------------------------------------------------------*/
+
+@media screen and (max-width:1200px) {
+
+    #whoCanJoin h2 {
+        line-height: 50px;
+        font-size: 32px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 1024px end 
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # screen max-width 1024px start 
+    --------------------------------------------------------------*/
+
+@media screen and (max-width:1024px) {
+    header {
+        padding: 0px 30px;
+    }
+
+    header .navbar-nav .nav-item {
+        padding: 0px 10px;
+    }
+
+    #whoCanJoin {
+        padding: 70px 0px 0px 50px;
+    }
+
+    #whoCanJoin h2 {
+        line-height: 45px;
+        font-size: 28px;
+    }
+
+    #whoCanJoin #register {
+        padding: 7px 60px;
+        font-size: 25px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 1024px end 
+    --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+    # screen max-width 992px start 
+    --------------------------------------------------------------*/
+
+@media screen and (max-width:992px) {
+    #banner .wrapper .static-txt {
+        font-size: 38px;
+    }
+
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 992px end 
+    --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen max-width 768px start 
+    --------------------------------------------------------------*/
+
+@media screen and (max-width:768px) {
+    header {
+        padding: 0px 20px;
+    }
+
+    #banner {
+        height: 450px;
+        padding: 300px 50px 0px 50px;
+    }
+
+    #banner .wrapper .static-txt {
+        font-size: 28px;
+    }
+
+    .rating-section .rating-logo {
+        height: 30px;
+    }
+
+    #whoCanJoin {
+        padding: 60px 0px 0px 40px;
+    }
+
+    #whoCanJoin h1 {
+        font-size: 32px;
+    }
+
+    #whoCanJoin h2 {
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #whoCanJoin #register {
+        padding: 5px 50px;
+        font-size: 20px;
+    }
+
+    #roadMap #roadMapBox {
+        font-size: 17px;
+    }
+
+    #roadMap #roadMapBox .roadMapBoxSpan {
+        font-size: 25px;
+    }
+
+    #linkWhatsapp .linkRow {
+        flex-direction: column;
+    }
+
+    #linkWhatsapp .linktext {
+        font-size: 25px;
+        padding-top: 0px;
+
+        margin-left: 0px;
+    }
+
+    #upcomingBatches table {
+        font-size: 15px;
+    }
+
+    #upcomingBatches table .btn {
+        font-size: 15px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 768px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen min-width 768px start 
+--------------------------------------------------------------*/
+@media screen and (min-width:768px) {
+    #courseInclude .col-md-3 {
+        border-right: 4px solid #FDC632;
+    }
+}
+
+
+/*--------------------------------------------------------------
+    # screen min-width 768px end 
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+    # screen max-width 576px end 
+--------------------------------------------------------------*/
+@media screen and (max-width:576px) {
+    #banner {
+        height: 400px;
+        padding: 275px 50px 0px 50px;
+    }
+
+    #banner .wrapper .static-txt {
+        font-size: 25px;
+    }
+
+    #swiper .slider-wrapper {
+        margin: 0px 0px;
+    }
+
+    #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
+        padding: 8px;
+        background: #fff;
+        width: 90px;
+        height: 90px;
+
+    }
+
+    
+    #whoCanJoin {
+        padding: 40px 0px 0px 20px;
+    }
+
+    #whoCanJoin h1 {
+        font-size: 25px;
+    }
+
+    #whoCanJoin h2 {
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    #whoCanJoin #register {
+        padding: 5px 50px;
+        font-size: 20px;
+    }
+    #insituteStatus .insituteStatusBox{
+        width: 100%;
+        height: 200px;
+    }
+    #admissionProcess .admissionProcessBox .col-3 div {
+        padding: 15px;
+        font-size: 25px;
+        display: inline-block;
+        line-height: 1;
+        margin-top: 25px;
+    }
+
+    #admissionProcess .admissionProcessBox .col-9 h5 {
+        font-size: 18px;
+    }
+
+    #admissionProcess .admissionProcessBox .col-9 p {
+        font-size: 15px;
+    }
+
+    #upcomingBatches table {
+        font-size: 14px;
+    }
+
+    #upcomingBatches table .btn {
+        font-size: 14px;
+    }
+
+    footer .footer-top {
+        padding: 30px 20px;
+    }
+
+    footer .footer-bottom {
+        padding: 20px 10px;
+    }
+
+}
+
+
+/*--------------------------------------------------------------
+    # screen max-width 576px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen max-width 520px start 
+--------------------------------------------------------------*/
+@media screen and (max-width:520px) {
+    #banner {
+        height: 400px;
+        padding: 275px 25px 0px 25px;
+    }
+
+    #banner .wrapper .static-txt {
+        font-size: 22px;
+    }
+
+    #whyChoose #chooseMobileBox .col-3 div {
+        padding: 17px;
+        font-size: 28px;
+        margin: 10px 0px;
+    }
+
+    #whyChoose #chooseMobileBox h5 {
+        font-size: 18px;
+    }
+
+    #whyChoose #chooseMobileBox p {
+        font-size: 15px;
+    }
+
+    #roadMap #roadMapBox {
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    #roadMap #roadMapBox .roadMapBoxSpan {
+        font-size: 22px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 520px end 
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+    # screen max-width 421px start 
+--------------------------------------------------------------*/
+@media screen and (max-width:421px) {
+    #banner {
+        height: 400px;
+        padding: 275px 20px 0px 20px;
+    }
+
+    #banner .wrapper .static-txt {
+        font-size: 20px;
+    }
+    #studentReview .card-list .card-item .titleCard .studentImage .studentColor {
+        font-size: 50px;
+    }
+
+    #whoCanJoin {
+        padding: 40px 0px 0px 20px;
+    }
+
+    #whoCanJoin h1 {
+        font-size: 21px;
+    }
+
+    #whoCanJoin h2 {
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    #whoCanJoin #register {
+        padding: 5px 50px;
+        font-size: 18px;
+    }
+
+    #whyChoose #chooseMobileBox h5 {
+        font-size: 16px;
+    }
+
+    #whyChoose #chooseMobileBox p {
+        font-size: 14px;
+    }
+
+    #roadMap #roadMapBox {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    #roadMap #roadMapBox .roadMapBoxSpan {
+        font-size: 20px;
+    }
+    #insituteStatus .insituteStatusBox p{
+       font-size: 15px;
+    }
+    #admissionProcess .admissionProcessBox .col-9 h5 {
+        font-size: 16px;
+    }
+
+    #admissionProcess .admissionProcessBox .col-9 p {
+        font-size: 14px;
+    }
+
+    #upcomingBatches table {
+        font-size: 12px;
+    }
+
+    #upcomingBatches table .btn {
+        font-size: 12px;
+    }
+}
+
+/*--------------------------------------------------------------
+    # screen max-width 421px end 
+--------------------------------------------------------------*/
