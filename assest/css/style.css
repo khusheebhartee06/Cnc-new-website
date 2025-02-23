@@ -545,8 +545,90 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   # whyChoose section end 
   --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+  #  PlacedCompany start 
+  --------------------------------------------------------------*/
+#PlacedCompany {
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+    padding: 100px 70px;
+}
 
+#PlacedCompany .slider {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
 
+#PlacedCompany .slider .slide-track {
+    display: flex;
+    width: calc(250px*10);
+    margin:10px 0px 10px ;
+    animation: scroll 30s linear infinite;
+}
+#PlacedCompany .slider .slide-track:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*5));
+    }
+}
+#PlacedCompany .slider .slide-track .slide {
+    width: 200px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgb(52, 29, 88);
+    margin: 2px 10px;
+    /* border: 1px solid black; */
+    perspective: 100px;
+    overflow: hidden;
+    border-radius:6px;
+}
+
+#PlacedCompany .slider .slide-track .slide img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#PlacedCompany .slider .slide-track .slide img:hover {
+    transform: translateZ(20px);
+}
+
+#PlacedCompany .slider::after,
+#PlacedCompany .slider::before {
+    background: linear-gradient(to right, rgba(12, 9, 9, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 2%;
+    z-index: 2;
+}
+
+#PlacedCompany .slider::before {
+    top: 0;
+    left: 0;
+}
+
+#PlacedCompany .slider::after {
+    top: 0;
+    right: 0;
+    transform: rotateZ(180deg);
+}
+
+/*--------------------------------------------------------------
+  #  PlacedCompany end 
+  --------------------------------------------------------------*/
 /*--------------------------------------------------------------
   #  Student Review start 
   --------------------------------------------------------------*/
