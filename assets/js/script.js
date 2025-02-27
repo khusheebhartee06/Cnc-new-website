@@ -1,9 +1,9 @@
 // banner start
-var typed = new Typed('.dynamic-txts', {
-  strings: ['Web Developer','Graphic Designer',"Web Designer",'Video Editor',],
+new Typed('.dynamic-txts', {
+  strings: ['Web Developer', 'Graphic Designer', "Web Designer", 'Video Editor',],
   typeSpeed: 50,
-  backSpeed:50,
-  loop:true
+  backSpeed: 50,
+  loop: true
 });
 // banner end
 //placedStudent start 
@@ -13,7 +13,7 @@ new Swiper(".placedStudentSwiper", {
   grabCursor: true,
   centeredSlides: true,
   mousewheel: true,
-  slidesPerView: "auto", 
+  slidesPerView: "auto",
   autoplay: {
     delay: 2000,
     disableOnInteraction: false
@@ -30,7 +30,7 @@ new Swiper(".placedStudentSwiper", {
     clickable: true,
     dynamicBultets: true
   },
-    // Navigation arrows
+  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -61,11 +61,14 @@ new Swiper('.slider-wrapper', {
     0: {
       slidesPerView: 1
     },
-    640: {
-      slidesPerView: 1
+    680: {
+      slidesPerView: 2
     },
     768: {
       slidesPerView: 2
+    },
+    992: {
+      slidesPerView: 3
     },
     1024: {
       slidesPerView: 3
@@ -74,7 +77,7 @@ new Swiper('.slider-wrapper', {
 });
 // Student Review start end
 // Why choose section start
-var swiper = new Swiper(".mySwiper", {
+new Swiper(".mySwiper", {
   loop: true,
   gapCursor: true,
   spaceBetween: 0,
