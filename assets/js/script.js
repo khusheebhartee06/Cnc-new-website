@@ -1,10 +1,10 @@
 // banner start
-new Typed('.dynamic-txts', {
-  strings: ['Web Developer', 'Graphic Designer', "Web Designer", 'Video Editor',],
-  typeSpeed: 50,
-  backSpeed: 50,
-  loop: true
-});
+// new Typed('.dynamic-txts', {
+//   strings: ['Web Developer', 'Graphic Designer', "Web Designer", 'Video Editor',],
+//   typeSpeed: 50,
+//   backSpeed: 50,
+//   loop: true
+// });
 // banner end
 //placedStudent start 
 new Swiper(".placedStudentSwiper", {
