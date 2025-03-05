@@ -171,18 +171,20 @@
 #keyHighlights  section start
 ------------------------------------------ */
 #keyHighlights {
-    background-color: #ECF1F5;
+    background-color: #e0e1e2;
 }
 /* #keyHighlights .row .col{
     margin: 0px auto;
 } */
 #keyHighlights .key {
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
+    border:3px solid #ffaa00;
     border-radius: 4px;
     background-color: #fff;
     margin-bottom:6px;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     transition: all 0.4s;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
 }
 #keyHighlights .key:hover{
     transform: translateY(-20px);
@@ -192,17 +194,21 @@
 }
 #keyHighlights .key span {
     background: #ecf1f5;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    /* border-radius: 50%; */
+    height: 120px;
+    /* width: 80px; */
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+    font-size: 12px;
 }
-
+#keyHighlights .key span img{
+    height: 100%;
+    width: 100%;
+}
 /* ---------------------------------------
 #keyHighlights  section end
 ------------------------------------------ */
@@ -294,6 +300,9 @@
 #max-width:400px section end
 ------------------------------------------ */
 @media screen and (max-width:400px) {
+    #keyHighlights .key span{
+        height: 90px;
+    }
     #courseDetail .details p {
         font-size: 12px;
     }
