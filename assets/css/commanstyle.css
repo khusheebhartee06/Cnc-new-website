@@ -517,11 +517,11 @@ footer .footer-top .col-md-3 ul li:hover a::before {
    --------------------------------------------------------------*/
 
 footer .footer-bottom {
-    /* #03032c,#02021E */
     background-color: #03032c;
     padding: 30px 40px 10px 40px;
     border-top: 1px solid #e9e5e5;
     box-shadow: -3px 0px 10px 0px gainsboro;
+    /* #03032c,#02021E */
 }
 
 footer .footer-bottom .social-icons {
