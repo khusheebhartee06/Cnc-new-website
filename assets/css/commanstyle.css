@@ -95,11 +95,18 @@ header .navbar-nav .nav-item .dropdown-menu {
     width: 270px;
     padding: 0;
 }
-
+header .navbar-nav .nav-item .dropdown-menu table{
+    box-shadow:0px 5px 10px gray;
+}
 header .navbar-nav .nav-item #hamburger_menu {
     right: 0;
     width: 200px;
-    /* background-color: #eff9ff; */
+    box-shadow: 0px 0px 10px gray;
+    background-color: #fff;
+}
+
+header .navbar-nav .nav-item #hamburger_menu .dropdown-item{
+    border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 header .navbar-nav .nav-item:hover .dropdown-menu {
@@ -521,7 +528,6 @@ footer .footer-bottom {
     padding: 30px 40px 10px 40px;
     border-top: 1px solid #e9e5e5;
     box-shadow: -3px 0px 10px 0px gainsboro;
-    /* #03032c,#02021E */
 }
 
 footer .footer-bottom .social-icons {

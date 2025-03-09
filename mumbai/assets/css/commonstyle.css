@@ -94,9 +94,10 @@ header .navbar-nav .nav-item .dropdown-menu {
     transition: all 1s;
     width: 270px;
     padding: 0;
+    
 }
 
-header .navbar-nav .nav-item #hamburger_menu {
+header .navbar-nav .nav-item #hamburger_menu{
     right: 0;
     width: 200px;
     /* background-color: #eff9ff; */
@@ -518,7 +519,6 @@ footer .footer-top .col-md-3 ul li:hover a::before {
    --------------------------------------------------------------*/
 
 footer .footer-bottom {
-    /* #03032c,#02021E */
     background-color: #03032c;
     padding: 30px 40px 10px 40px;
     border-top: 1px solid #e9e5e5;
