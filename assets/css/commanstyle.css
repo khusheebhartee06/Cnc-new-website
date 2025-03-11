@@ -292,7 +292,7 @@ header .offcanvas-body ul li:hover a {
 #roadMapStep #roadMapStepSection .roadMapStepSectionBox {
     float: left;
     background: #fff;
-    padding: 12px 12px;
+    padding: 12px 5px;
     border-radius: 5px;
     margin: 7px;
     min-height: 310px;
@@ -311,12 +311,16 @@ header .offcanvas-body ul li:hover a {
     font-size: 12px;
     margin-bottom: 5px;
 }
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox p span{
+    color: rgb(6, 131, 6);
+}
 #roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover {
     background: #22577a;
     color: white;
 }
 
-#roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover p {
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover p,
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover p span{
     color: white;
 }
 

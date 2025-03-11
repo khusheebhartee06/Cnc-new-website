@@ -169,7 +169,7 @@ header .offcanvas-body ul li:hover a {
 /*--------------------------------------------------------------
   #  PlacedCompany start 
   --------------------------------------------------------------*/
-#PlacedCompany {
+  #PlacedCompany {
     display: grid;
     place-items: center;
     padding: 50px 70px;
@@ -188,9 +188,9 @@ header .offcanvas-body ul li:hover a {
 
 #PlacedCompany .slider .slide-track {
     display: flex;
-    width: calc(250px*14);
+    width: calc(250px*10);
     margin: 10px 0px 10px;
-    animation: scroll 30s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 /* #PlacedCompany .slider .slide-track:hover{
@@ -202,7 +202,7 @@ header .offcanvas-body ul li:hover a {
     }
 
     100% {
-        transform: translateX(calc(-250px*7));
+        transform: translateX(calc(-250px*5));
     }
 }
 
@@ -221,6 +221,7 @@ header .offcanvas-body ul li:hover a {
     overflow: hidden;
     border-radius: 6px;
 }
+
 
 #PlacedCompany .slider .slide-track .slide img {
     width: 100%;
@@ -320,7 +321,18 @@ header .offcanvas-body ul li:hover a {
     line-height: 22px;
     font-size: 12px;
 }
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox p span{
+    color: rgb(6, 131, 6);
+}
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover {
+    background: #22577a;
+    color: white;
+}
 
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover p,
+#roadMapStep #roadMapStepSection .roadMapStepSectionBox:hover p span{
+    color: white;
+}
 #roadMapStep #roadMapStepSection .start {
     color: #fff;
     font-size: 18px;

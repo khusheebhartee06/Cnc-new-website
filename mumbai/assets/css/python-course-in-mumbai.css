@@ -238,10 +238,20 @@
 #programmingTools{
     background-color: #ECF1F5;
 }
-#programmingTools img{
+/* #programmingTools img{
     box-shadow: 2px -1px 44px -11px rgba(0,0,0,.3);
     margin: 10px;
     width: 53px;
+} */
+#programmingTools .col-12 .row .col{
+    text-align: center;
+}
+#programmingTools img{
+    margin: 20px auto;
+    height: 90px;
+    width: 130px;
+    /* margin: 20px; */
+    /* box-shadow: 2px -1px 44px -11px rgba(0,0,0,.3); */
 }
 /* ---------------------------------------
 #programmingTools  section end
