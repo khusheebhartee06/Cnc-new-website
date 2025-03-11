@@ -45,12 +45,12 @@ a {
   #  Banner section start 
   --------------------------------------------------------------*/
 #banner {
+    height: 500px;
+    position: relative;
     /* background: linear-gradient(to right, #021A64, rgba(255, 255, 255, 0.1)), url(../img/banner.jpeg) scroll no-repeat;
     background-size: cover;
     background-position: center;
     padding: 350px 70px 10px 70px; */
-    height: 500px;
-    position: relative;
 }
 
 #banner .carousel-item img {
@@ -593,7 +593,7 @@ a {
 
     #banner {
         height: 450px;
-        padding: 300px 50px 0px 50px;
+        /* padding: 300px 50px 0px 50px; */
     }
 
     #banner .wrapper .static-txt {
@@ -675,7 +675,7 @@ a {
 @media screen and (max-width:576px) {
     #banner {
         height: 400px;
-        padding: 275px 50px 0px 50px;
+        /* padding: 275px 50px 0px 50px; */
     }
 
     #banner .wrapper .static-txt {
@@ -737,7 +737,7 @@ a {
 @media screen and (max-width:520px) {
     #banner {
         height: 400px;
-        padding: 275px 25px 0px 25px;
+        /* padding: 275px 25px 0px 25px; */
     }
 
     #banner .wrapper .static-txt {
@@ -772,7 +772,7 @@ a {
 @media screen and (max-width:421px) {
     #banner {
         height: 400px;
-        padding: 275px 20px 0px 20px;
+        /* padding: 275px 20px 0px 20px; */
     }
 
     #banner .wrapper .static-txt {
