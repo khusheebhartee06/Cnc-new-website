@@ -140,36 +140,25 @@ a {
     font-family: 'Inter';
 }
 
-#ourCourses #brochurebtn,
-#ourCourses #knowbtn {
-    padding: 10px auto;
+#ourCourses #brochurebtn {
+    height:50px ;
+    line-height:40px ;
+    width:100%;
     font-weight: 500;
-    border: 1px solid #2E3192;
+    border: 1px solid #188D27;
     border-radius: 5px;
     transition: all 0.6s;
     margin-right: 10px;
     font-size: 15px;
+    background-color: #188D27;
+    color: #fff;
 }
-
-#ourCourses #brochurebtn {
-    background-color: white;
-    color: #2E3192;
-}
-
-#ourCourses #knowbtn {
-    background-color: #2E3192;
-    color: white;
-}
-
 #ourCourses #brochurebtn:hover {
     background-color: #2E3192;
     color: white;
+    border: 1px solid #2E3192;
 }
 
-#ourCourses #knowbtn:hover {
-    background-color: white;
-    color: #2E3192;
-}
 
 /*--------------------------------------------------------------
   #  Our Courses end
@@ -180,7 +169,7 @@ a {
   --------------------------------------------------------------*/
 
 #courseInclude {
-    background-color: #ECF0F2;
+    background-color: #F2FCFF;
 }
 
 #courseInclude .col-md-9 .row .col .includeIcon {
