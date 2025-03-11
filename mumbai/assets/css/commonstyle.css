@@ -422,8 +422,8 @@ header .offcanvas-body ul li:hover a {
     justify-content: space-between;
     align-items: baseline;
     position: absolute;
-    top: -2.8rem;
-    width: 100%;
+    top: -2.9rem;
+    width: 110%;
 
 }
 
@@ -439,7 +439,7 @@ header .offcanvas-body ul li:hover a {
 #studentReview .card-list .card-item .titleCard .studentImage .studentImageRounded {
     border: 2px solid #eaeaea;
     border-radius: 50%;
-    padding: 10px;
+    padding: 0px;
     background: #fff;
     width: 110px;
     height: 110px;
