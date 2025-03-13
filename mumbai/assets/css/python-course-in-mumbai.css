@@ -40,6 +40,17 @@
 #banner section end
 ------------------------------------------ */
 /* ---------------------------------------
+#why-python section start
+------------------------------------------ */
+#why-python{
+    background-color: #f6f9fe;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+}
+/* ---------------------------------------
+#why-python section end
+------------------------------------------ */
+/* ---------------------------------------
 #courseDetails section start
 ------------------------------------------ */
 #courseDetail {

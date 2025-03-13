@@ -1,3 +1,33 @@
+new Swiper(".placedStudentSwiper", {
+  loop: true,
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  mousewheel: true,
+  slidesPerView: "auto",
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false
+  },
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 150,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBultets: true
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+//placedStudent end 
 //Student Review start 
 new Swiper('.slider-wrapper', {
     loop: true,

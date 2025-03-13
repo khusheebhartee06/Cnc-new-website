@@ -191,41 +191,7 @@ a {
 /*--------------------------------------------------------------
   #  Course Include end
   --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-  #  whoCanJoin Section start 
-  --------------------------------------------------------------*/
 
-#whoCanJoin {
-    background: url(../img/Who-can-join-bg.jpg) scroll;
-    background-size: cover;
-    background-position: center;
-    padding: 80px 0px 0px 50px;
-}
-
-#whoCanJoin h2 {
-    line-height: 60px;
-    font-size: 38px;
-}
-
-#whoCanJoin #register {
-    background-color: #eea107;
-    color: white;
-    padding: 7px 70px;
-    border-radius: 30px;
-    font-size: 28px;
-    margin: 30px 0px 60px 0px;
-    font-weight: 500;
-    display: block;
-}
-
-#whoCanJoin .img-fluid {
-    height: 100%;
-    width: 100%;
-}
-
-/*--------------------------------------------------------------
-  #  whoCanJoin Section end 
-  --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
   #  insituteStatus Section start 
@@ -431,87 +397,6 @@ a {
 /*--------------------------------------------------------------
   # whyChoose section end 
   --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-  #  placedStudent start 
-  --------------------------------------------------------------*/
-
-#placedStudent .swiper {
-    width: 90%;
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-#placedStudent .swiper .swiper-wrapper {
-    min-height: 350px;
-}
-
-#placedStudent .swiper .swiper-wrapper .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 380px;
-    height: 270px;
-}
-
-#placedStudent .swiper-slide img {
-    display: block;
-    width: 100%;
-}
-
-#placedStudent .btnPlaced {
-    background-color: #121d5a;
-    color: rgb(255, 255, 255);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    line-height: 40px;
-    text-align: center;
-    border: 2px solid #121d5a;
-    transition: all 0.3s ease-in-out;
-}
-
-#placedStudent .btnPlaced:hover {
-    background-color: white;
-    color: #121d5a;
-}
-
-#placedStudent .swiper-button-next:after,
-#placedStudent .swiper-button-prev:after {
-    font-size: 17px;
-    font-weight: bolder;
-
-}
-
-/*--------------------------------------------------------------
-  #  placedStudent start 
-  --------------------------------------------------------------*/
-/*--------------------------------------------------------------
-    # linkWhatsapp section start 
---------------------------------------------------------------*/
-#linkWhatsapp {
-    background-color: #29AF3E;
-    transition: all 1s;
-}
-
-#linkWhatsapp .linktext {
-    font-size: 36px;
-    line-height: 1.35em;
-    padding-top: 20px;
-    margin-left: 20px;
-    color: white;
-    transition: all 0.6s;
-}
-
-#linkWhatsapp:hover {
-    background-color: white;
-}
-
-#linkWhatsapp:hover .linktext {
-    color: #29AF3E;
-}
-
-/*--------------------------------------------------------------
-    # linkWhatsapp section end 
---------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
     # Responsive section start 
@@ -521,13 +406,10 @@ a {
   # screen max-width 1200px start 
  --------------------------------------------------------------*/
 
-@media screen and (max-width:1200px) {
+/* @media screen and (max-width:1200px) {
 
-    #whoCanJoin h2 {
-        line-height: 50px;
-        font-size: 32px;
-    }
-}
+   
+} */
 
 /*--------------------------------------------------------------
  # screen max-width 1200px end 
@@ -538,23 +420,10 @@ a {
   # screen max-width 1024px start 
  --------------------------------------------------------------*/
 
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
 
-    #whoCanJoin {
-        padding: 70px 0px 0px 50px;
-    }
 
-    #whoCanJoin h2 {
-        line-height: 45px;
-        font-size: 28px;
-    }
-
-    #whoCanJoin #register {
-        padding: 7px 60px;
-        font-size: 25px;
-    }
-
-}
+} */
 
 /*--------------------------------------------------------------
  # screen max-width 1024px end 
@@ -589,26 +458,6 @@ a {
         font-size: 28px;
     }
 
-
-
-    #whoCanJoin {
-        padding: 60px 0px 0px 40px;
-    }
-
-    #whoCanJoin h1 {
-        font-size: 32px;
-    }
-
-    #whoCanJoin h2 {
-        line-height: 40px;
-        font-size: 20px;
-    }
-
-    #whoCanJoin #register {
-        padding: 5px 50px;
-        font-size: 20px;
-    }
-
     #insituteStatus #insituteStatusContent p {
         font-size: 14px;
     }
@@ -618,25 +467,7 @@ a {
     }
 
 
-    #placedStudent .swiper .swiper-wrapper {
-        min-height: 300px;
-    }
-
-    #placedStudent .swiper .swiper-wrapper .swiper-slide {
-        width: 300px;
-        height: 220px;
-    }
-
-    #linkWhatsapp .linkRow {
-        flex-direction: column;
-    }
-
-    #linkWhatsapp .linktext {
-        font-size: 25px;
-        padding-top: 0px;
-
-        margin-left: 0px;
-    }
+   
 }
 
 /*--------------------------------------------------------------
@@ -672,23 +503,6 @@ a {
     }
 
 
-    #whoCanJoin {
-        padding: 40px 0px 0px 20px;
-    }
-
-    #whoCanJoin h1 {
-        font-size: 25px;
-    }
-
-    #whoCanJoin h2 {
-        line-height: 30px;
-        font-size: 20px;
-    }
-
-    #whoCanJoin #register {
-        padding: 5px 50px;
-        font-size: 20px;
-    }
 
     #insituteStatus .insituteStatusBox {
         width: 100%;
@@ -702,16 +516,6 @@ a {
     #swiper .slider-wrapper {
         margin: 0px 0px;
     }
-
-    #placedStudent .swiper .swiper-wrapper {
-        min-height: 250px;
-    }
-
-    #placedStudent .swiper .swiper-wrapper .swiper-slide {
-        width: 250px;
-        height: 170px;
-    }
-
 
 }
 
@@ -768,24 +572,7 @@ a {
         font-size: 20px;
     }
 
-    #whoCanJoin {
-        padding: 40px 0px 0px 20px;
-    }
-
-    #whoCanJoin h1 {
-        font-size: 21px;
-    }
-
-    #whoCanJoin h2 {
-        line-height: 25px;
-        font-size: 18px;
-    }
-
-    #whoCanJoin #register {
-        padding: 5px 50px;
-        font-size: 18px;
-    }
-
+    
     #insituteStatus .insituteStatusBox p {
         font-size: 15px;
     }
