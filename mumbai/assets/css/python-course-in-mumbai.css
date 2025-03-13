@@ -133,7 +133,10 @@
     width: 100%;
     min-height: 320px;
 }
-
+#industryProject .industryProjectBox figure img{
+    min-height: 250px;
+    width: 100%;
+}
 #industryProject .industryProjectBox p {
     font-size: 14px;
     line-height: 25px;
