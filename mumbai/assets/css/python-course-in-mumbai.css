@@ -9,8 +9,33 @@
 /* ---------------------------------------
 #banner section start
 ------------------------------------------ */
-#banner {}
-
+#banner {
+    background-color:#1A2B5B ;
+    color: white;
+    /* background:url(../img/python-banner.png) no-repeat scroll;
+    background-size: cover;
+    height: 500px; */
+}
+#banner h1{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#banner .row .row{
+    background-color: #3B415D;
+    text-align: center;
+    padding: 20px;
+    margin-right:  40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+#banner .row .row .col-4:first-child{
+    border-right: 3px solid white;
+    
+}
+#banner .row .row .col-4:last-child{
+    border-left: 3px solid white;
+}
 /* ---------------------------------------
 #banner section end
 ------------------------------------------ */
