@@ -96,7 +96,9 @@ header .navbar-nav .nav-item .dropdown-menu {
     padding: 0;
     
 }
-
+header .navbar-nav .nav-item .dropdown-menu table{
+    box-shadow:0px 5px 10px gray;
+}
 header .navbar-nav .nav-item #hamburger_menu{
     right: 0;
     width: 200px;
