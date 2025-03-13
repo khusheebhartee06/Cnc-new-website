@@ -291,6 +291,19 @@
 #max-width:575px section end
 ------------------------------------------ */
 @media screen and (max-width:575px) {
+    #banner h1{
+        font-size: 30px;
+    }
+    #banner .row .row{
+        padding: 15px 10px;
+        margin-right:  0px;
+    }
+    #banner .row .row h2{
+        font-size: 22px;
+    }
+    #banner .row .row h5{
+        font-size: 18px;
+    }
     #courseDetail {
         padding: 50px 20px;
     }
@@ -308,6 +321,12 @@
 #max-width:440px section end
 ------------------------------------------ */
 @media screen and (max-width:440px) {
+    #banner .row .row h2{
+        font-size: 20px;
+    }
+    #banner .row .row h5{
+        font-size: 15px;
+    }
     #courseDetail {
         padding: 50px 10px;
     }
