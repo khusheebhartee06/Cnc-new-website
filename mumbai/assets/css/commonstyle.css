@@ -101,7 +101,7 @@ header .navbar-nav .nav-item .dropdown-menu table{
 }
 header .navbar-nav .nav-item #hamburger_menu{
     right: 0;
-    width: 200px;
+    width: 250px;
     box-shadow: 0px 0px 10px gray;
     background-color: #fff;
 }
